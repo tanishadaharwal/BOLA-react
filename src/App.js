@@ -1,24 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
-
+import NavBar from "./components/Navbar";
+import Banner from "./components/Carousel";
+import AboutUs from "./components/AboutUs";
+import MessageFA from "./components/MessageFA";
+import MessageGSBola from "./components/MessageGSBola";
+import Mission from "./components/Mission";
+import Footer from "./components/Footer";
+import ClubList from "./components/ClubList";
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import Alfaaz from "./Clubs/Alfaaz";
 function App() {
+
+  const images = [
+    "image1.jpg",
+    "image1.jpg",
+    "image1.jpg",
+    // Add more image URLs as needed
+  ];
   return (
+    <Router >
+       <Routes>
+              <Route path="/" element={
+                <main className="bg-blue-50">
+                      <Banner />
+                      <AboutUs />
+                      <MessageFA />
+                      <MessageGSBola />
+                      <Mission />
+                      <ClubList />
+                      <Footer />
+              
+                </main>
+              
+              
+              
+              }/>
+                <Route path="/alfaaz" element={<Alfaaz />}/>
+                <Route path="*" element={<h1>404! Page not found</h1>}/>
+                {/* asterick is for every other page */}
+        </Routes>
+      
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <NavBar />
       </header>
+      
+      
+      
     </div>
+  
+    </Router>
   );
 }
 

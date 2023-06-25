@@ -21,15 +21,15 @@ export default function Alfaaz() {
   <h1 className='text-4xl mt-10 font-bold mb-6'>Present Core Team</h1>
   <div className='flex flex-col p-4 items-center'>
     <div className='flex p-4 space-x-6 items-center '>
-      <div><img className='rounded-2xl p-2'  alt="core-team"src="image1.jpg"></img>
+      <div><img className='rounded-2xl p-2' alt="core-team" src="image1.jpg"></img>
       <h2 className='text-center'>Secretary</h2></div>
-      <div><img className='rounded-2xl p-2'  alt="core-team"src="image1.jpg"></img><h2 className='text-center'>Representatives</h2></div>
+      <div><img className='rounded-2xl p-2'alt="core-team"  src="image1.jpg"></img><h2 className='text-center'>Representatives</h2></div>
     </div>
     <div className='flex p-4 items-center'>
-      <div><img className='rounded-2xl p-2'  alt="core-team"src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
-      <div><img className='rounded-2xl p-2'  alt="core-team"src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
-      <div><img className='rounded-2xl p-2'  alt="core-team"src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
-      <div><img className='rounded-2xl p-2'  alt="core-team"src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
+      <div><img className='rounded-2xl p-2' alt="core-team" src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
+      <div><img className='rounded-2xl p-2' alt="core-team" src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
+      <div><img className='rounded-2xl p-2' alt="core-team" src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
+      <div><img className='rounded-2xl p-2' alt="core-team" src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
     </div>
   </div>
 </div>
@@ -38,15 +38,15 @@ export default function Alfaaz() {
   <h1 className='text-4xl mt-10 font-bold mb-6'>Ex Core Team</h1>
   <div className='flex flex-col p-4 items-center'>
     <div className='flex p-4 space-x-6 items-center '>
-      <div><img className='rounded-2xl p-2'  alt="core-team"src="image1.jpg"></img>
+      <div><img className='rounded-2xl p-2' alt="core-team" src="image1.jpg"></img>
       <h2 className='text-center'>Secretary</h2></div>
-      <div><img className='rounded-2xl p-2'  alt="core-team"src="image1.jpg"></img><h2 className='text-center'>Representatives</h2></div>
+      <div><img className='rounded-2xl p-2' alt="core-team" src="image1.jpg"></img><h2 className='text-center'>Representatives</h2></div>
     </div>
     <div className='flex p-4 items-center'>
-      <div><img className='rounded-2xl p-2'  alt="core-team"src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
-      <div><img className='rounded-2xl p-2'  alt="core-team"src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
-      <div><img className='rounded-2xl p-2'  alt="core-team"src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
-      <div><img className='rounded-2xl p-2'  alt="core-team"src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
+      <div><img className='rounded-2xl p-2' alt="core-team" src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
+      <div><img className='rounded-2xl p-2' alt="core-team" src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
+      <div><img className='rounded-2xl p-2' alt="core-team" src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
+      <div><img className='rounded-2xl p-2' alt="core-team" src="image1.jpg"></img><h2 className='text-center'>Co-ordinator</h2></div>
     </div>
   </div>
 </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from './Navbar';
 export default function AboutUs() {
   return (
-    <div name="aboutUs" className='mx-36 mt-20 p-4'>
+    <div name="aboutUs" className='mx-36 mt-10 p-4'>
       <div className="fixed top-0 left-0 w-full bg-white z-50">
         <NavBar />
       </div>

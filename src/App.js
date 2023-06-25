@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import ClubList from "./components/ClubList";
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import Alfaaz from "./Clubs/Alfaaz";
+import EventGallery from "./components/EventGallery";
 function App() {
 
   const images = [
@@ -27,7 +28,9 @@ function App() {
                       <MessageGSBola />
                       <Mission />
                       <ClubList />
+                      <EventGallery />
                       <Footer />
+                      
               
                 </main>
               
@@ -42,10 +45,7 @@ function App() {
     <div className="App">
       <header>
         <NavBar />
-      </header>
-      
-      
-      
+      </header>   
     </div>
   
     </Router>

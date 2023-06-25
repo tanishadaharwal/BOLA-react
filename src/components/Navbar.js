@@ -38,11 +38,14 @@ const NavBar = () => {
       </div>
 
       <div className="hidden md:flex">
-        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:scale-105 hover:text-violet-600 hover:font-semibold duration-200" >
+        <div className="flex gap-2 px-4 cursor-pointer  capitalize font-medium hover:scale-105 hover:text-violet-600 hover:font-semibold duration-200" >
     
          <FaHome className="" size={20}/>
+         <div>
          <Link to="/" smooth duration={500}>Home</Link>
-       
+         
+         </div>
+        
         </div>
 
         <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-violet-600 hover:scale-105 duration-200" 

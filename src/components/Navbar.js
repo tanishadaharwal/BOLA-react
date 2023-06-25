@@ -58,13 +58,13 @@ const NavBar = () => {
          {showClubs && (
             <div className="absolute w-36 border-t-4 border-violet-600 items-center bg-white rounded-md shadow-md mt-6 -ml-4 p-2">
               <ul>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/alfaaz">Alfaaz</Link></li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md">Alpha Productions</li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md">Debsoc</li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md">Ennarators</li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md">Enigma</li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md">Filmski</li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md">MUN</li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/Alfaaz">Alfaaz</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/Alpha">Alpha Productions</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/DebSoc">Debsoc</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/Ennarators">Ennarators</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/Enigma">Enigma</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/Filmski">Filmski</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/MUN">MUN</Link></li>
                 {/* Add more clubs as needed */}
               </ul>
             </div>
@@ -81,9 +81,9 @@ const NavBar = () => {
          {showLinks && (
             <div className="absolute w-40 border-t-4 border-violet-600 items-center bg-white rounded-md shadow-md mt-6 ml-4 p-2">
               <ul>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md">BOLA Gallery</li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md">IIT Ropar Website</li>
-                
+                <Link to="/event-gallery"><li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md">BOLA Gallery</li></Link>
+                <Link to="https://www.iitrpr.ac.in/"><li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md">IIT Ropar Website</li>
+                </Link>
                 {/* Add more clubs as needed */}
               </ul>
             </div>

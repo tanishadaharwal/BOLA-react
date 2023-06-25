@@ -12,18 +12,18 @@ const Banner = () => {
         showThumbs={false}
         interval={3000}>
             <div className="h-screen w-full mx-auto">
-                <img className="h-[90%] w-full" src="IMG_0422.jpg" />
+                <img className="h-[90%] w-full" alt="banner"src="IMG_0422.jpg" />
                
             </div>
             <div className="h-screen w-full mx-auto">
-            <img className="h-[90%] w-full" src="IMG_9564.jpg" />
+            <img className="h-[90%] w-full" alt="banner"src="IMG_9564.jpg" />
   
             </div>
             <div className="h-screen w-full mx-auto">
-            <img className="h-[90%] w-full" src="IMG_6896.jpg" />
+            <img className="h-[90%] w-full" alt="banner"src="IMG_6896.jpg" />
             </div>
             <div className="h-screen w-full mx-auto">
-            <img className="h-[90%] w-full" src="IMG_6871.jpg" />
+            <img className="h-[90%] w-full" alt="banner"src="IMG_6871.jpg" />
             </div>
         </Carousel>
         </div>

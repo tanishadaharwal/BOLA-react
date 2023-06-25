@@ -63,13 +63,13 @@ export default function ClubList() {
   slidesToSlide={1}
   swipeable
 >
-<Link to="/alfaaz" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2' src="Alfaaz.jpg"></img></div></Link>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2'src="DebSoc.png"></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2'src="Enigma.jpeg"></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2'src="Filmski.jpg"></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2' src="Alpha Productions.jpg"></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2'src="Enarrators.PNG"></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2'src="mun_logo.jpeg"></img></div>
+<Link to="/alfaaz" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2' alt="club-log" src="Alfaaz.jpg"></img></div></Link>
+    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2' alt="club-log"src="DebSoc.png"></img></div>
+    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2' alt="club-log"src="Enigma.jpeg"></img></div>
+    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2' alt="club-log"src="Filmski.jpg"></img></div>
+    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2' alt="club-log" src="Alpha Productions.jpg"></img></div>
+    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2' alt="club-log"src="Enarrators.PNG"></img></div>
+    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='h-80 w-80 rounded-2xl p-2' alt="club-log"src="mun_logo.jpeg"></img></div>
 
 </Carousel>
   </div>

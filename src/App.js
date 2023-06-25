@@ -6,17 +6,12 @@ import MessageGSBola from "./components/MessageGSBola";
 import Mission from "./components/Mission";
 import Footer from "./components/Footer";
 import ClubList from "./components/ClubList";
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Alfaaz from "./Clubs/Alfaaz";
 import EventGallery from "./components/EventGallery";
 function App() {
 
-  const images = [
-    "image1.jpg",
-    "image1.jpg",
-    "image1.jpg",
-    // Add more image URLs as needed
-  ];
+ 
   return (
     <Router >
        <Routes>

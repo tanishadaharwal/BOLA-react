@@ -1,17 +1,9 @@
 
-import {Link} from "react-router-dom"
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 export default function SimpleSlider() {
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows : true,
-    indicators : true
-  };
+ 
   return (
     <div className="mt-20 w-full">
       <Carousel

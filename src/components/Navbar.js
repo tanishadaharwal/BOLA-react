@@ -25,10 +25,10 @@ const NavBar = () => {
     setShowLinks(false);
   }
   return (
-    <div name="/" className="flex justify-between items-center w-full h-20 px-4 text-black z-20 top-0 bg-white fixed">
+    <div name="/" className="flex justify-between items-center w-full h-20 px-4 text-white  top-0 bg-[#2B2730] bg-opacity-75 fixed">
       <div className="flex gap-5">
         <div>
-          <img className="h-20 w-20 my-1" src="BOLA-1.png" alt="Logo" />
+          <img className="h-20 w-20 my-1 rounded-full" src="BOLA-1.png" alt="Logo" />
         </div>
 
         <div className="my-auto">
@@ -38,7 +38,7 @@ const NavBar = () => {
       </div>
 
       <div className="hidden md:flex">
-        <div className="flex gap-2 px-4 cursor-pointer  capitalize font-medium hover:scale-105 hover:text-violet-600 hover:font-semibold duration-200" >
+        <div className="flex gap-2 px-4 cursor-pointer  capitalize font-medium hover:text-[#f9c23c] hover:font-semibold duration-200" >
     
          <FaHome className="" size={20}/>
          <div>
@@ -48,7 +48,7 @@ const NavBar = () => {
         
         </div>
 
-        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-violet-600 hover:scale-105 duration-200" 
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#f9c23c]  duration-200" 
          onMouseEnter={handleClubHover}
          onMouseLeave={handleClubLeave}>
     
@@ -56,15 +56,15 @@ const NavBar = () => {
          
          <Link to="" smooth duration={500}>Clubs</Link>
          {showClubs && (
-            <div className="absolute w-36 border-t-4 border-violet-600 items-center bg-white rounded-md shadow-md mt-6 -ml-4 p-2">
+            <div className="absolute w-36 border-t-4  hover:text-[#f9c23c] items-center bg-zinc-600 rounded-md shadow-md mt-6 -ml-4 p-2">
               <ul>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/Alfaaz">Alfaaz</Link></li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/Alpha">Alpha Productions</Link></li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/DebSoc">Debsoc</Link></li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/Ennarators">Ennarators</Link></li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/Enigma">Enigma</Link></li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/Filmski">Filmski</Link></li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md"><Link to="/clubs/MUN">MUN</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Alfaaz">Alfaaz</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Alpha">Alpha Productions</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/DebSoc">Debsoc</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Ennarators">Ennarators</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Enigma">Enigma</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Filmski">Filmski</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/MUN">MUN</Link></li>
                 {/* Add more clubs as needed */}
               </ul>
             </div>
@@ -72,17 +72,17 @@ const NavBar = () => {
         </div>
 
 
-        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-violet-600 hover:scale-105 duration-200" 
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#f9c23c]  duration-200" 
         onMouseEnter={handleLinkHover}
         onMouseLeave={handleLinkLeave}>
     
          <FaLink className="" size={20}/>
          <Link to="" smooth duration={500}>Important Links</Link>
          {showLinks && (
-            <div className="absolute w-40 border-t-4 border-violet-600 items-center bg-white rounded-md shadow-md mt-6 ml-4 p-2">
+            <div className="absolute w-40 border-t-4  items-center bg-zinc-600 rounded-md shadow-md mt-6 ml-4 p-2">
               <ul>
-                <Link to="/event-gallery"><li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md">BOLA Gallery</li></Link>
-                <Link to="https://www.iitrpr.ac.in/"><li className="py-2 cursor-pointer hover:scale-105 hover:text-black hover:font-semibold hover:bg-gray-200 hover:rounded-md">IIT Ropar Website</li>
+                <Link to="/event-gallery"><li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">BOLA Gallery</li></Link>
+                <Link to="https://www.iitrpr.ac.in/"><li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">IIT Ropar Website</li>
                 </Link>
                 {/* Add more clubs as needed */}
               </ul>
@@ -90,7 +90,7 @@ const NavBar = () => {
           )}
         </div>
 
-        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-violet-600 hover:scale-105 duration-200" >
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#f9c23c] duration-200" >
     
          <FaIdCard className="" size={20}/>
          <LinkRoll to="aboutUs" smooth duration={500}>About</LinkRoll>

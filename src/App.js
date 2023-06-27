@@ -23,7 +23,7 @@ function App() {
     <Router >
        <Routes>
               <Route path="/" element={
-                <main className="bg-blue-50">
+                <main className="h-full bg-[#2B2730]">
                       <Banner />
                       <AboutUs />
                       <MessageFA />

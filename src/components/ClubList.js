@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Reveal from './Reveal';
-import Reveal2 from './Reveal2';
+
 export default function ClubList() {
   return (
    

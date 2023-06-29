@@ -3,7 +3,7 @@ import React from "react";
 import {FaBars, FaHome, FaIdCard, FaLayerGroup, FaLink, FaTimes } from "react-icons/fa";
 import { Link as LinkRoll} from "react-scroll";
 import {Link} from "react-router-dom"
-
+import BOLA from "../ClubLogos/BOLA-1.png"
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [showClubs, setShowClubs] = useState(false);
@@ -28,7 +28,7 @@ const NavBar = () => {
     <div name="/" className="flex justify-between items-center w-full h-20 px-4 text-white top-0 bg-[#1c1a1e] bg-opacity-60 z-50 fixed">
       <div className="flex gap-5">
         <div>
-          <img className="h-20 w-20 my-1 rounded-full" src="BOLA-1.png" alt="Logo" />
+          <img className="h-20 w-20 my-1 rounded-full" src={BOLA} alt="Logo" />
         </div>
 
         <div className="my-auto">

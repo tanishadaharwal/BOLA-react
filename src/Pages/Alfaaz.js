@@ -1,6 +1,6 @@
 import React from 'react'
 import AlfaazLogo from '../ClubLogos/Alfaaz.jpg';
-import NavBar from '../components/Navbar';
+
 import Reveal from '../components/Reveal';
 import {useState} from "react";
 import { motion } from 'framer-motion';

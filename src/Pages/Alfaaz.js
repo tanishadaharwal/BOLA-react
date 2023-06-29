@@ -2,7 +2,7 @@ import React from 'react'
 import AlfaazLogo from '../ClubLogos/Alfaaz.jpg';
 import NavBar from '../components/Navbar';
 import Reveal from '../components/Reveal';
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import { motion } from 'framer-motion';
 export default function Alfaaz() {
   const [selectedYear, setSelectedYear] = useState('2023-2024');

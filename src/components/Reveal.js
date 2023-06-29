@@ -22,7 +22,7 @@ export default function Reveal({ children, width = "fit-content" }) {
 
                 initial="hidden"
                 animate={mainControls}
-                transition={{ duraton: 1, delay: 0.5}}
+                transition={{ duraton: 1.5, delay: 0.5}}
 
             >{children}</motion.div>
 

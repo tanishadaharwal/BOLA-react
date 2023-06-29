@@ -10,9 +10,9 @@ export default function ClubList() {
    
     <div className='lg:px-36 pt-36 px-5  '>
       <Reveal>
-      <h1 className='text-4xl text-center text-[#0cf790] font-bold mb-6'>Clubs under BOLA</h1>
+      <h1 className='text-4xl px-4 text-left lg:text-center text-[#0cf790] font-bold mb-6'>Clubs under BOLA</h1>
     <hr className="w-full border-2 border-gray-300 mt-8" />
-    <p className='mt-8 font-semibold text-white text-center leading-10 mb-5 '>Under the auspices of the Board of Literary Affairs, we are proud to present seven distinct clubs that encompass a wide range of literary pursuits. These clubs offer a unique platform for students to engage in various forms of expression, explore their creativity, and hone their literary skills.
+    <p className='mt-8 px-4 font-semibold text-white  lg:text-center leading-10 mb-5 '>Under the auspices of the Board of Literary Affairs, we are proud to present seven distinct clubs that encompass a wide range of literary pursuits. These clubs offer a unique platform for students to engage in various forms of expression, explore their creativity, and hone their literary skills.
 </p>
       
     
@@ -23,7 +23,7 @@ export default function ClubList() {
   arrows
   autoPlaySpeed={3000}
   centerMode={false}
-  className=""
+  className="ml-8"
   containerClass="container"
   dotListClass=""
   draggable

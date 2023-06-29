@@ -11,7 +11,7 @@ export default function Reveal({ children, width = "fit-content" }) {
             mainControls.start("visible");
            
         }
-    }, [isInView, , mainControls]);
+    }, [isInView, mainControls]);
     return (
         <div style={{ position: "relative", width : "100%", overflow: "hidden" }} ref={ref}>
             <motion.div

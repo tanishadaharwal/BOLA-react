@@ -5,7 +5,7 @@ import 'react-multi-carousel/lib/styles.css';
 export default function SimpleSlider() {
  
   return (
-    <div className="mt-20 w-full">
+    <div className="w-full">
       <Carousel
   additionalTransfrom={0}
   arrows
@@ -61,36 +61,36 @@ export default function SimpleSlider() {
   swipeable
 >
 <div>
-      <img className='h-[570px] w-full object-fill' src="B1.jpg" alt="Imgallery4" />
+      <img className='h-[650px] w-full object-cover' src="B1.jpg" alt="Imgallery4" />
       </div>
       <div>
-      <img className='h-[570px] w-full object-fill' src="B2.jpg" alt="event-gallery" />
+      <img className='h-[650px] w-full object-cover' src="B2.jpg" alt="event-gallery" />
       </div>
       <div>
-      <img className='h-[570px] w-full object-fill' src="B3.jpg" alt="Imagegallery4" />
+      <img className='h-[650px] w-full object-cover' src="B3.jpg" alt="Imagegallery4" />
       </div>
       <div>
-      <img className='h-[570px] w-full object-fill' src="B4.jpg" alt="Imagegallery 4" />
+      <img className='h-[650px] w-full object-cover' src="B4.jpg" alt="Imagegallery 4" />
       </div>
       <div>
-      <img className='h-[570px] w-full object-fill' src="B5.jpg" alt="Imagegallery 4" />
+      <img className='h-[650px] w-full object-cover' src="B5.jpg" alt="Imagegallery 4" />
       </div>
       <div>
-      <img className='h-[570px] w-full object-fill' src="B6.jpg" alt="Imagegallery 4" />
+      <img className='h-[650px] w-full object-cover' src="B6.jpg" alt="Imagegallery 4" />
       </div>
       <div>
-      <img className='h-[570px] w-full object-fill' src="B7.jpg" alt="Imagegallery 4" />
+      <img className='h-[650px] w-full object-cover' src="B7.jpg" alt="Imagegallery 4" />
       </div>
       
       </Carousel>
      
-      <div className="flex my-3 ml-[43%] gap-5 text-white">
+      <div className="flex my-3 lg:ml-[43%] ml-20 gap-5 text-white">
         <div className=" ">
           <img className="h-14 w-14 my-2 rounded-full" src="BOLA-1.png" alt="Logo" />
         </div>
 
         <div className="my-auto ">
-          <h3 className="font-semibold text-xl">Board of Literary Affairs</h3>
+          <h3 className="text-white font-semibold text-xl">Board of Literary Affairs</h3>
           
         </div>
       </div>

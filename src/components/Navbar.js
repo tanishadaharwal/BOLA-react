@@ -25,7 +25,7 @@ const NavBar = () => {
     setShowLinks(false);
   }
   return (
-    <div name="/" className="flex justify-between items-center w-full h-20 px-4 text-white  top-0 bg-[#2B2730] bg-opacity-75 fixed">
+    <div name="/" className="flex justify-between items-center w-full h-20 px-4 text-white top-0 bg-[#1c1a1e] bg-opacity-60 fixed">
       <div className="flex gap-5">
         <div>
           <img className="h-20 w-20 my-1 rounded-full" src="BOLA-1.png" alt="Logo" />
@@ -38,7 +38,7 @@ const NavBar = () => {
       </div>
 
       <div className="hidden md:flex">
-        <div className="flex gap-2 px-4 cursor-pointer  capitalize font-medium hover:text-[#f9c23c] hover:font-semibold duration-200" >
+        <div className="flex gap-2 px-4 cursor-pointer  capitalize font-medium hover:text-[#0aff9d] hover:font-semibold duration-200" >
     
          <FaHome className="" size={20}/>
          <div>
@@ -48,7 +48,7 @@ const NavBar = () => {
         
         </div>
 
-        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#f9c23c]  duration-200" 
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#0aff9d]  duration-200" 
          onMouseEnter={handleClubHover}
          onMouseLeave={handleClubLeave}>
     
@@ -56,7 +56,7 @@ const NavBar = () => {
          
          <Link to="" smooth duration={500}>Clubs</Link>
          {showClubs && (
-            <div className="absolute w-36 border-t-4  hover:text-[#f9c23c] items-center bg-zinc-600 rounded-md shadow-md mt-6 -ml-4 p-2">
+            <div className="absolute w-36 border-t-4  hover:text-[#0aff9d] items-center bg-zinc-800 rounded-md shadow-md mt-6 -ml-4 p-2">
               <ul>
                 <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Alfaaz">Alfaaz</Link></li>
                 <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Alpha">Alpha Productions</Link></li>
@@ -72,14 +72,14 @@ const NavBar = () => {
         </div>
 
 
-        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#f9c23c]  duration-200" 
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#0aff9d]  duration-200" 
         onMouseEnter={handleLinkHover}
         onMouseLeave={handleLinkLeave}>
     
          <FaLink className="" size={20}/>
          <Link to="" smooth duration={500}>Important Links</Link>
          {showLinks && (
-            <div className="absolute w-40 border-t-4  items-center bg-zinc-600 rounded-md shadow-md mt-6 ml-4 p-2">
+            <div className="absolute w-40 border-t-4  items-center bg-zinc-800 rounded-md shadow-md mt-6 ml-4 p-2">
               <ul>
                 <Link to="/event-gallery"><li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">BOLA Gallery</li></Link>
                 <Link to="https://www.iitrpr.ac.in/"><li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">IIT Ropar Website</li>
@@ -90,7 +90,7 @@ const NavBar = () => {
           )}
         </div>
 
-        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#f9c23c] duration-200" >
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#0aff9d] duration-200" >
     
          <FaIdCard className="" size={20}/>
          <LinkRoll to="aboutUs" smooth duration={500}>About</LinkRoll>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import Reveal from './Reveal2';
+import Reveal from './Reveal';
 export default function EventGallery() {
   return (
     <Reveal>

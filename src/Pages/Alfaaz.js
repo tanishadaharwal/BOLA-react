@@ -16,10 +16,10 @@ export default function Alfaaz() {
     <div className='text-center text-[#ebecf3] p-4 mx-20 text-5xl font-bold'>
       Alfaaz
     </div>
-    <div className='lg:flex-row space-x-5 '>
+    <div className='lg:flex space-x-5 '>
     <div className='lg:flex lg:flex-col  lg:w-2/3 space-y-4'>
       <Reveal>
-      <div className='ml:mx-36 mx-5'>
+      <div className='lg:mx-36 mx-5'>
 <h1 className='text-4xl mt-10 text-[#ebecf3] font-bold mb-6'>About✨</h1>
 <p className='font-medium text-[#ebecf3] leading-10'>Alfaaz, the Poetry Club of IIT Ropar is a family of like-minded people when it comes to showing our love for reading and creative writing, and yet, who are also able to maintain their individualities apart by expressing the same thing through a ton of interesting perspectives. Got a penchant or even a slight inclination towards creative expression? Then Alfaaz is the club for you! We wholeheartedly welcome you to become a part of our family to learn and grow together in the art of words, transcending the boundaries of language and form.
 </p>
@@ -28,7 +28,7 @@ export default function Alfaaz() {
 
 <div>
   <Reveal>
-  <div className='ml:mx-36 mx-5'>
+  <div className='lg:mx-36 mx-5'>
 <h1 className='text-4xl mt-10 text-[#ebecf3] font-bold mb-6'>Vision✨</h1>
 <p className='font-medium leading-10 text-[#ebecf3]'>Celebrating literature and creativity, we are a community that shares common aspirations when it comes to creative writing, and encourages various forms of expression!
 </p>
@@ -53,7 +53,7 @@ export default function Alfaaz() {
         <h1 className='text-5xl mt-10 text-center text-[#ebecf3] font-bold mb-6'>Core Team</h1>
       </div>
 
-      <div className='flex justify-center gap-1 items-center'>
+      <div className='flex justify-center gap-1 '>
       <button
           className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-s-md ${selectedYear === '2023-2024' ? 'bg-gray-400' : 'bg-white'}`}
           onClick={() => handleYearChange('2023-2024')}
@@ -129,7 +129,7 @@ export default function Alfaaz() {
        >
         <div>
           <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='grid lg:grid-cols-3 grid-cols-2 gap-6'>
+            <div className='flex space-x-10 justify-center'>
             <div>
                 <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 object-cover border-[#0cf790] rounded-2xl p-2' alt="club-log" 
                 src={require('../ClubLogos/coreTeam/Aneeket.jpg')}></img>
@@ -143,7 +143,7 @@ export default function Alfaaz() {
 
           </div>
           <div>
-          <div className='grid lg:grid-cols-4 grid-cols-2 gap-6'>
+          <div className='grid lg:grid-cols-4 grid-cols-2 lg:ml-[20%] gap-6'>
           <div>
           
                 <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 object-cover border-[#0cf790] rounded-2xl p-2' alt="club-log" 

@@ -15,9 +15,9 @@ export default function MessageGSBola() {
         It is my utmost pleasure to extend a heartfelt welcome to all of you at our prestigious institution, which is enriched by a vibrant literary culture. We firmly believe that literature holds the power to transform the world. Here, at our college, we have a variety of clubs dedicated to fostering this spirit. I invite you to explore the diverse literary clubs and events offered by the Board of Literary Affairs. Embrace the opportunity to broaden your knowledge, nurture personal growth, and create cherished memories within our captivating environment. Once again, I warmly welcome you to IIT Ropar, where the journey of literary exploration begins.
 
       </div>
-      <div>
+      <div className=''>
       <img loading="lazy"  className="rounded-xl ml-10 lg:w-72 lg:h-80 w-40 h-72  hover:scale-110 duration-300 mt-8" alt="GS-BOLA"src="GS_BOLA.jpg"></img>
-      <h2 className='text-lg mt-3 text-center mx-auto text-[#ebecf3]'>Mr. Swaran Pratap Singh</h2>
+      <h2 className='text-lg mt-3 text-center lg:ml-0 -ml-10 text-[#ebecf3]'>Mr. Swaran Pratap Singh</h2>
       </div>
       
       </div>

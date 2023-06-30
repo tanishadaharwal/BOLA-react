@@ -3,9 +3,11 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import BOLA from "../ClubLogos/BOLA-1.png"
+
 export default function SimpleSlider() {
  
   return (
+    
     <div className="w-full">
       <Carousel
   additionalTransfrom={0}

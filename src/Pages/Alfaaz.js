@@ -169,8 +169,8 @@ export default function Alfaaz() {
       )}
     </div>
 
-<hr className=" border-2 ml:mx-36 mx-5 border-gray-300 mt-8" />
-<div className='ml:mx-36 mx-5'>
+<hr className=" border-2 mx-5 border-gray-300 mt-8" />
+<div className='lg:mx-36 mx-5'>
   <h1 className='text-4xl mt-10 font-bold mb-6 text-[#ebecf3]'>Achievements🏆</h1>
       <div className='gird gird-cols-1 pb-10 '>
         <div>

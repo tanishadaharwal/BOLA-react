@@ -50,7 +50,7 @@ export default function Alfaaz() {
   autoPlay
   autoPlaySpeed={3000}
   centerMode={false}
-  className="pl-24 mt-10 w-[60%]"
+  className="lg:pl-24 pl-5 mt-10 lg:w-[60%] w-full"
   containerClass="container-with-dots"
   dotListClass=""
   draggable
@@ -77,7 +77,7 @@ export default function Alfaaz() {
         max: 464,
         min: 0
       },
-      items: 1,
+      items: 3,
       partialVisibilityGutter: 30
     },
     tablet: {

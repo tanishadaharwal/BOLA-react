@@ -4,7 +4,7 @@ export default function MessageGSBola() {
   return (
     <Reveal>
         <div className='lg:px-36 px-5 pt-36  '>
-      <h1 className='text-4xl text-[#0aff9d] font-bold mb-6'>Message from GS Bola</h1>
+      <h1 className='text-4xl text-[#0aff9d] font-bold mb-6'>Message from GS BOLA</h1>
       
       <hr className="w-full border-2 border-gray-300 mt-8" />
       <div className='lg:flex flex-row justify-between  space-x-10'>

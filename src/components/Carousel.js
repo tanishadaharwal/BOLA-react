@@ -24,7 +24,7 @@ export default function SimpleSlider() {
   itemClass=""
   keyBoardControl
   minimumTouchDrag={80}
-  pauseOnHover
+  
   renderArrowsWhenDisabled={false}
   renderButtonGroupOutside={false}
   renderDotsOutside={false}
@@ -64,8 +64,9 @@ export default function SimpleSlider() {
   swipeable
 >
 <div>
-      <img loading="lazy"  className='h-[650px] w-full object-cover' src="B1.jpg" alt="Imgallery4" />
+      <img loading="lazy"  className='h-[650px] w-full object-cover' src="B7.jpg" alt="Imagegallery 4" />
       </div>
+
       <div>
       <img loading="lazy"  className='h-[650px] w-full object-cover' src="B2.jpg" alt="event-gallery" />
       </div>
@@ -82,8 +83,8 @@ export default function SimpleSlider() {
       <img loading="lazy"  className='h-[650px] w-full object-cover' src="B6.jpg" alt="Imagegallery 4" />
       </div>
       <div>
-      <img loading="lazy"  className='h-[650px] w-full object-cover' src="B7.jpg" alt="Imagegallery 4" />
-      </div>
+      <img loading="lazy"  className='h-[650px] w-full object-cover' src="B1.jpg" alt="Imgallery4" />
+      </div> 
       
       </Carousel>
      

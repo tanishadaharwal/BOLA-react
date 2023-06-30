@@ -50,7 +50,7 @@ export default function Alfaaz() {
   autoPlay
   autoPlaySpeed={3000}
   centerMode={false}
-  className="lg:pl-24 pl-5 mt-10 lg:w-[60%] w-full"
+  className="lg:pl-24  mt-10  lg:w-[60%]"
   containerClass="container-with-dots"
   dotListClass=""
   draggable
@@ -77,7 +77,7 @@ export default function Alfaaz() {
         max: 464,
         min: 0
       },
-      items: 3,
+      items: 2,
       partialVisibilityGutter: 30
     },
     tablet: {
@@ -99,14 +99,12 @@ export default function Alfaaz() {
   swipeable
 >
 
-<div className='hover:opacity-80 p-3 hover:scale-95 duration-300 '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log" src={AlfaazLogo}></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
-   
+<div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log" src={AlfaazLogo}></img></div>
+    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
+    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
+    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
+    <div className=''><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
+    
 </Carousel></div>
     <hr className=" border-2  mx-5 border-gray-300 mt-10" />
 

@@ -90,7 +90,7 @@ export default function Alfaaz() {
 
           </div>
           <div>
-          <div className='grid lg:grid-cols-4 grid-cols-2 gap-6 '>
+          <div className='grid lg:grid-cols-4 lg:ml-0 ml-3 grid-cols-2 gap-6 '>
                 <div>
                 <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-[#0cf790] object-cover rounded-2xl p-2' alt="club-log" 
                 src={require('../ClubLogos/coreTeam/Abhishek Kumar .jpg')}></img>
@@ -143,7 +143,7 @@ export default function Alfaaz() {
 
           </div>
           <div>
-          <div className='grid lg:grid-cols-4 grid-cols-2 lg:ml-[20%] gap-6'>
+          <div className='grid lg:grid-cols-4  ml-3 grid-cols-2 lg:ml-[20%] gap-6'>
           <div>
           
                 <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 object-cover border-[#0cf790] rounded-2xl p-2' alt="club-log" 

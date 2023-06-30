@@ -16,7 +16,7 @@ export default function MessageGSBola() {
 
       </div>
       <div>
-      <img className="rounded-xl ml-10 lg:w-72 lg:h-80 w-40 h-72  hover:scale-110 duration-300 mt-8" alt="GS-BOLA"src="GS_BOLA.jpg"></img>
+      <img loading="lazy"  className="rounded-xl ml-10 lg:w-72 lg:h-80 w-40 h-72  hover:scale-110 duration-300 mt-8" alt="GS-BOLA"src="GS_BOLA.jpg"></img>
       <h2 className='text-lg mt-3 text-center mx-auto text-[#ebecf3]'>Mr. Swaran Pratap Singh</h2>
       </div>
       

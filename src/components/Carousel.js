@@ -2,6 +2,7 @@
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import BOLA from "../ClubLogos/BOLA-1.png"
 export default function SimpleSlider() {
  
   return (
@@ -61,32 +62,32 @@ export default function SimpleSlider() {
   swipeable
 >
 <div>
-      <img className='h-[650px] w-full object-cover' src="B1.jpg" alt="Imgallery4" />
+      <img loading="lazy"  className='h-[650px] w-full object-cover' src="B1.jpg" alt="Imgallery4" />
       </div>
       <div>
-      <img className='h-[650px] w-full object-cover' src="B2.jpg" alt="event-gallery" />
+      <img loading="lazy"  className='h-[650px] w-full object-cover' src="B2.jpg" alt="event-gallery" />
       </div>
       <div>
-      <img className='h-[650px] w-full object-cover' src="B3.jpg" alt="Imagegallery4" />
+      <img loading="lazy"  className='h-[650px] w-full object-cover' src="B3.jpg" alt="Imagegallery4" />
       </div>
       <div>
-      <img className='h-[650px] w-full object-cover' src="B4.jpg" alt="Imagegallery 4" />
+      <img loading="lazy"  className='h-[650px] w-full object-cover' src="B4.jpg" alt="Imagegallery 4" />
       </div>
       <div>
-      <img className='h-[650px] w-full object-cover' src="B5.jpg" alt="Imagegallery 4" />
+      <img loading="lazy"  className='h-[650px] w-full object-cover' src="B5.jpg" alt="Imagegallery 4" />
       </div>
       <div>
-      <img className='h-[650px] w-full object-cover' src="B6.jpg" alt="Imagegallery 4" />
+      <img loading="lazy"  className='h-[650px] w-full object-cover' src="B6.jpg" alt="Imagegallery 4" />
       </div>
       <div>
-      <img className='h-[650px] w-full object-cover' src="B7.jpg" alt="Imagegallery 4" />
+      <img loading="lazy"  className='h-[650px] w-full object-cover' src="B7.jpg" alt="Imagegallery 4" />
       </div>
       
       </Carousel>
      
       <div className="flex my-3 lg:ml-[43%] ml-6 gap-5 text-white">
         <div className=" ">
-          <img className="h-14 w-14 my-2 rounded-full" src="BOLA-1.png" alt="Logo" />
+          <img loading="lazy"  className="h-14 w-14 my-2 rounded-full" src={BOLA} alt="Logo" />
         </div>
 
         <div className="my-auto ">

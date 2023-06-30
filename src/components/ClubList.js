@@ -73,13 +73,13 @@ export default function ClubList() {
   swipeable
 >
 
-<Link to="/clubs/Alfaaz" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log" src={AlfaazLogo}></img></div></Link>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src="DebSoc.png"></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src="Enigma.jpeg"></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src="Filmski.jpg"></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log" src="Alpha Productions.jpg"></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src="Enarrators.PNG"></img></div>
-    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src="mun_logo.jpeg"></img></div>
+<Link to="/clubs/Alfaaz" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log" src={AlfaazLogo}></img></div></Link>
+    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src="DebSoc.png"></img></div>
+    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src="Enigma.jpeg"></img></div>
+    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src="Filmski.jpg"></img></div>
+    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log" src="Alpha Productions.jpg"></img></div>
+    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src="Enarrators.PNG"></img></div>
+    <div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-52 w-52 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src="mun_logo.jpeg"></img></div>
    
 </Carousel>
     

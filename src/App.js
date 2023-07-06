@@ -27,7 +27,7 @@ function App() {
           <NavBar />
         </header>
 
-        <main className="h-full bg-[#232525] " >
+        <main className="h-full w-full bg-[#232525] " >
           <Routes>
             <Route
               path="/"

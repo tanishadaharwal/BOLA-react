@@ -4,7 +4,7 @@ import Reveal from './Reveal';
 export default function EventGallery() {
   return (
     <Reveal>
-    <div className=' pt-36 pb-5  lg:px-36 px-5 '>
+    <div className=' pt-36 pb-5  lg:px-36 px-5 w-full'>
       <h1 className='text-4xl px-1 text-white  font-bold mb-6'>Event Gallery📸</h1>
       
       <div className="pl-6 sm:pl-0 grid md:grid-cols-2 sm:grid-cols-1 items-center lg:grid-cols-4 gap-4">

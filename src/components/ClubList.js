@@ -4,7 +4,6 @@ import {Link} from "react-router-dom"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import AlfaazLogo from '../ClubLogos/Alfaaz.jpg';
-
 import Reveal from './Reveal';
 
 export default function ClubList() {

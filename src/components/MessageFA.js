@@ -3,7 +3,7 @@ import Reveal from './Reveal';
 export default function MessageFA() {
   return (
             <Reveal>  
-               <div className=' pt-36 lg:px-36 px-5  '>
+               <div className=' pt-36 lg:px-36 px-5  w-full'>
             <h1 className='text-4xl text-[#0aff9d]  font-bold mb-6'>Message from Faculty Advisor</h1>
             
             <hr className="w-full border-2 border-gray-300 mt-8" />

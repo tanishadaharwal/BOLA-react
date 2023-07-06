@@ -11,7 +11,7 @@ import AboutUs from '../components/AboutUs';
 
 export default function Home() {
   return (
-    <div className='pt-20 bg-[#111011] '>
+    <div className='pt-0 -z-50  bg-[#111011] '>
 <Banner />
 <AboutUs />
 <MessageFA />

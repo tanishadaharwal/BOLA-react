@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gray-400 w-full">
       
       <div className="container mx-auto lg:px-36 px-5  py-8">
-        <div className="lg:flex flex-col justify-between">
+        <div className="lg:flex justify-evenly">
         
           <div className="w-full ">
             <div className='flex '>
@@ -58,7 +58,7 @@ const Footer = () => {
          
           
 
-<div className="lg:mx-0 mx-20 lg:pt-0 pt-4">
+<div className="lg:mx-0 mx-20 lg:px-32 lg:pt-0 pt-4">
             <h3 className="text-lg font-bold mb-2">Quick Links</h3>
             <div className="flex flex-col w-40  gap-2">
   <a
@@ -195,13 +195,13 @@ const Footer = () => {
       
         </div>
       </div>
-      <div className='bg-[#232525] lg:py-8 lg:px-24 h-20 w-full' >
+      <div className='bg-[#232525] lg:py-8 lg:px-24 h-full w-full' >
         <div className='text-gray-500 w-full items-center lg:flex lg:justify-between'>
-          <div className='py-4 mx-12'>
-          <h1 className='lg:text-lg text-xs'>Copyrights © 2022-23 Student Affairs IIT Ropar</h1>
+          <div className='lg:py-0 py-4 lg:mx-0 mx-12'>
+          <h1 className='lg:text-sm text-xs'>Copyrights © 2022-23 Student Affairs IIT Ropar</h1>
           </div>
-          <div className='py-2 mx-14'>
-          <h1 className='lg:text-lg text-xs'>Website Developed by<span className='text-[#40d695]'> Tanisha Daharwal</span></h1>
+          <div className='lg:py-0 py-2 lg:mx-0 mx-14'>
+          <h1 className='lg:text-sm text-xs'>Website Developed by<span className='text-[#40d695]'> Tanisha Daharwal</span></h1>
           
           </div>
          

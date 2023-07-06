@@ -119,11 +119,11 @@ export default function Gallery() {
   };
 
   return (
-    <div className="pt-20 bg-[#111011]">
+    <div className="pt-20 h-full pb-4 bg-[#111011]">
       <div className="text-center text-white p-4 text-5xl font-bold">Gallery</div>
-      <div className="flex justify-center mb-8 space-x-4">
+      <div className="lg:flex justify-center mb-8 space-x-4">
         <button
-          className={`text-[#0aff9d] ${
+          className={`text-[#0aff9d] lg:ml-0 ml-4 lg:mb-0 mb-2 ${
             selectedClub === 'All' ? 'bg-[#0aff9d] text-black' : 'bg-gray-600'
           } hover:bg-[#0aff9d] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
           onClick={() => handleClubChange('All')}
@@ -147,7 +147,7 @@ export default function Gallery() {
           Alpha Productions
         </button>
         <button
-          className={`text-[#0aff9d] ${
+          className={`text-[#0aff9d] mb-2 lg:mb-0 ${
             selectedClub === 'DebSoc' ? 'bg-[#0aff9d] text-black' : 'bg-gray-600'
           } hover:bg-[#0aff9d] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
           onClick={() => handleClubChange('DebSoc')}

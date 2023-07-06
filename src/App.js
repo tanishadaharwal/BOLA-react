@@ -1,14 +1,7 @@
 import NavBar from "./components/Navbar";
-import Banner from "./components/Carousel";
-import AboutUs from "./components/AboutUs";
-import MessageFA from "./components/MessageFA";
-import MessageGSBola from "./components/MessageGSBola";
-import Mission from "./components/Mission";
-import Footer from "./components/Footer";
-import ClubList from "./components/ClubList";
+
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Alfaaz from "./Pages/Alfaaz";
-import EventGallery from "./components/EventGallery";
 import Gallery from "./Pages/Gallery";
 import DebSoc from "./Pages/DebSoc";
 import Enigma from "./Pages/Enigma";

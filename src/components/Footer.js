@@ -3,18 +3,18 @@ import { FaEnvelope, FaInstagram, FaMapMarkedAlt, FaPhone, FaArrowRight } from '
 import Logo from "../ClubLogos/BOLA-1.png";
 const Footer = () => {
   return (
-    <footer className="bg-gray-400 ">
+    <footer className="bg-gray-400 w-full">
       
-      <div className="container mx-auto px-36  py-8">
-        <div className="flex justify-between">
+      <div className="container mx-auto lg:px-36 px-5  py-8">
+        <div className="lg:flex flex-col justify-between">
         
-          <div className=" ">
-            <div className='flex'>
+          <div className="w-full ">
+            <div className='flex '>
               <div>
                 <img className="h-16 w-16 rounded-full"src={Logo} alt="bola logo"/>
               </div>
               <div>
-              <h3 className="text-lg font-bold ml-2 my-auto">Board Of Literary Affairs</h3>
+              <h3 className="text-lg font-bold lg:ml-2 my-auto">Board Of Literary Affairs</h3>
               <p className="text-lg font-bold ml-2 my-auto">IIT Ropar</p>
               </div>
             
@@ -58,7 +58,7 @@ const Footer = () => {
          
           
 
-<div className="">
+<div className="lg:mx-0 mx-20 lg:pt-0 pt-4">
             <h3 className="text-lg font-bold mb-2">Quick Links</h3>
             <div className="flex flex-col w-40  gap-2">
   <a
@@ -118,7 +118,7 @@ const Footer = () => {
   </a>
 </div>
           </div>
-          <div className="">
+          <div className="lg:mx-0 mx-20 lg:pt-0 pt-4">
             <h3 className="text-lg font-bold mb-2">Social Media Handles</h3>
             <div className="flex flex-col w-52 gap-2">
   <a
@@ -195,11 +195,16 @@ const Footer = () => {
       
         </div>
       </div>
-      <div className='bg-[#232525] py-8 px-24 h-20' >
-        <div className='text-gray-500 flex justify-between'>
-          <h1>Copyrights © 2022-23 Student Affairs IIT Ropar</h1>
-          <h1>Website Developed by<span className='text-[#40d695]'> Tanisha Daharwal</span></h1>
+      <div className='bg-[#232525] lg:py-8 lg:px-24 h-20 w-full' >
+        <div className='text-gray-500 w-full items-center lg:flex lg:justify-between'>
+          <div className='py-4 mx-12'>
+          <h1 className='lg:text-lg text-xs'>Copyrights © 2022-23 Student Affairs IIT Ropar</h1>
+          </div>
+          <div className='py-2 mx-14'>
+          <h1 className='lg:text-lg text-xs'>Website Developed by<span className='text-[#40d695]'> Tanisha Daharwal</span></h1>
           
+          </div>
+         
         </div>
       </div>
     </footer>

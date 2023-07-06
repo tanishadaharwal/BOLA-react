@@ -119,7 +119,7 @@ export default function Gallery() {
   };
 
   return (
-    <div className="pt-20 h-full bg-[#111011] w-full">
+    <div className="pt-20 bg-[#111011]">
       <div className="text-center text-white p-4 text-5xl font-bold">Gallery</div>
       <div className="flex justify-center mb-8 space-x-4">
         <button

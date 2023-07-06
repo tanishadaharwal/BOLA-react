@@ -7,11 +7,11 @@ export default function AboutUs() {
   return (
     
       <div name="aboutUs" className=' lg:px-40 px-5 p-4  '>
-      <div className="fixed top-0 left-0 w-full  z-50">
+      <div className="fixed top-0 left-0   z-50">
         <NavBar />
       </div>
       
-      <div className="pt-20">
+      <div className="pt-20 ">
       <Reveal> 
         <h1 className='text-5xl text-[#0aff9d] font-extrabold mb-6'>About Board of Literary Affairs</h1>
         <hr className="w-full border-2 border-gray-700 mt-8" />

@@ -16,29 +16,14 @@ import Enarrators from "./Pages/Enarrators";
 import Filmski from "./Pages/Filmski";
 import MUN from "./Pages/MUN";
 import Alpha from "./Pages/Alpha";
+import Home from "./Pages/Home";
 function App() {
 
  
   return (
     <Router >
        <Routes>
-              <Route path="/" element={
-                <main className="h-full bg-[#111011] ">
-                      <Banner />
-                      <AboutUs />
-                      <MessageFA />
-                      <MessageGSBola />
-                      <Mission />
-                      <ClubList />
-                      <EventGallery />
-                      <Footer />
-                      
-              
-                </main>
-              
-              
-              
-              }/>
+                <Route path="/" element={<Home />}/>
                 <Route path="/clubs/Alfaaz" element={<Alfaaz />}/>
                 <Route path="/clubs/DebSoc" element={<DebSoc />}/>
                 <Route path="/clubs/Enigma" element={<Enigma />}/>
@@ -51,7 +36,7 @@ function App() {
                 {/* asterick is for every other page */}
         </Routes>
       
-    <div className="App">
+    <div className="App ">
       <header>
         <NavBar />
       </header>   

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React from "react";
-import {FaBars, FaHome, FaIdCard, FaLayerGroup, FaLink, FaTimes } from "react-icons/fa";
+import {FaBars, FaCertificate, FaHome, FaIdCard, FaLayerGroup, FaLink, FaList, FaPagelines, FaParagraph, FaTimes, FaPager } from "react-icons/fa";
 import { Link as LinkRoll} from "react-scroll";
 import {Link} from "react-router-dom"
 import BOLA from "../ClubLogos/BOLA-1.png"
@@ -61,7 +61,7 @@ const NavBar = () => {
                 <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Alfaaz">Alfaaz</Link></li>
                 <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Alpha">Alpha Productions</Link></li>
                 <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/DebSoc">Debsoc</Link></li>
-                <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Ennarators">Ennarators</Link></li>
+                <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Enarrators">Ennarators</Link></li>
                 <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Enigma">Enigma</Link></li>
                 <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Filmski">Filmski</Link></li>
                 <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/MUN">MUN</Link></li>
@@ -70,7 +70,19 @@ const NavBar = () => {
             </div>
           )}
         </div>
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#0aff9d]  duration-200" >
+    
+        <FaList size={20}/>
+         <Link to="https://docs.google.com/document/d/1wCkjDxrwtr7Rb8CUqH7OOtMMsEJt66viU-CDxXoCeDY/edit" target="_blank" rel="noopener noreferrer" smooth duration={500}>Calender</Link>
+         
+        </div>
 
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#0aff9d]  duration-200" >
+    
+    <FaPager size={20} />
+     <Link to="https://docs.google.com/document/d/1wCkjDxrwtr7Rb8CUqH7OOtMMsEJt66viU-CDxXoCeDY/edit" target="_blank" rel="noopener noreferrer" smooth duration={500}>Constitution</Link>
+     
+    </div>
 
         <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#0aff9d]  duration-200" 
         onMouseEnter={handleLinkHover}

@@ -4,9 +4,11 @@ import Carousel from 'react-multi-carousel';
 import Reveal from '../components/Reveal';
 import {useState} from "react";
 import { motion } from 'framer-motion';
+import MemberCard from '../components/MemberCard';
+import { FaEnvelope, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 export default function Alfaaz() {
   const [selectedYear, setSelectedYear] = useState('2023-2024');
-
+  const [showDetails, setShowDetails] = useState(false);
   const handleYearChange = (year) => {
     setSelectedYear(year);
   };
@@ -43,7 +45,7 @@ export default function Alfaaz() {
 </div>
 
 
-{/* <div className='hover:opacity-80 hover:scale-95 duration-300 my-auto'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 lg:mx-0 mx-auto border-[#0cf790] rounded-2xl p-2' alt="club-log" src={AlfaazLogo}></img></div> */}
+{/* <div className='hover:opacity-80 hover:scale-95 duration-300 my-auto'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 lg:mx-0 mx-auto border-white rounded-2xl p-2' alt="club-log" src={AlfaazLogo}></img></div> */}
 <Carousel
   additionalTransfrom={0}
   arrows
@@ -99,11 +101,11 @@ export default function Alfaaz() {
   swipeable
 >
 
-<div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log" src={AlfaazLogo}></img></div>
-    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
-    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
-    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
-    <div className=''><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-[#0cf790] rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
+<div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log" src={AlfaazLogo}></img></div>
+    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
+    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
+    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
+    <div className=''><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src={AlfaazLogo}></img></div>
     
 </Carousel></div>
     <hr className=" border-2  mx-5 border-gray-300 mt-10" />
@@ -141,39 +143,26 @@ export default function Alfaaz() {
         transition={{ duration: 0.5 }}
       >
           <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='flex space-x-10 justify-center'>
-                <div>
-                <img loading="lazy" className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-[#0cf790] object-cover rounded-2xl p-2' alt="club-log" 
-                src={require('../ClubLogos/coreTeam/Sakshi Bhagdikar .jpg')}></img>
-                </div>
-                <div>
-                <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-[#0cf790] object-cover rounded-2xl p-2' alt="club-log" 
-                src={require('../ClubLogos/coreTeam/Prerna Singh.jpg')}></img>
-                </div>
-            
+            <div className='flex gap-20 justify-center'>
+            <MemberCard name="Sakshi Bhagdikar" number="56453413345" position="Secretary" image="Sakshi Bhagdikar .jpg"/>
+            <MemberCard name="Prerna Singh" number="56453413345" position="Representative" image="Prerna Singh.jpg"/>
+                
+                
 
           </div>
           <div>
-          <div className='grid lg:grid-cols-4 lg:ml-0 ml-3 grid-cols-2 gap-6 '>
-                <div>
-                <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-[#0cf790] object-cover rounded-2xl p-2' alt="club-log" 
-                src={require('../ClubLogos/coreTeam/Abhishek Kumar .jpg')}></img>
-                </div>
+          <div className='flex justify-center gap-20'>
+          
+                <MemberCard name="Hitesh Patange" number="56453413345" position="Co-ordinator" image="Hitesh.jpg"/>
+                <MemberCard name="Abhishek Abhi" number="56453413345" position="Co-ordinator" image="Abhishek Kumar .jpg"/>
+                <MemberCard name="Amitoj Singh" number="56453413345" position="Co-ordinator" image="Amitoj.jpg"/>
+                <MemberCard name="Sunny Bharti" number="56453413345" position="Co-ordinator" image="Sunny.jpg"/>
+                
+                
 
-                <div>
-                <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 object-center border-[#0cf790] rounded-2xl p-2' alt="club-log" 
-                src={require('../ClubLogos/coreTeam/Amitoj.jpg')}></img>
-                </div>
+                
 
-                <div className="">
-                <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 object-cover border-[#0cf790] rounded-2xl p-2' alt="club-log" 
-                src={require('../ClubLogos/coreTeam/Sunny.jpg')}></img>
-                </div>
-
-                <div>
-                <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36  border-2   border-[#0cf790] rounded-2xl p-2' alt="club-log" 
-                src={require('../ClubLogos/coreTeam/Hitesh.jpg')}></img>
-                </div>
+               
                 
             
 
@@ -191,43 +180,35 @@ export default function Alfaaz() {
          exit={{ opacity: 0 }}
          transition={{ duration: 0.5 }}
        >
-        <div>
-          <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='flex space-x-10 justify-center'>
-            <div>
-                <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 object-cover border-[#0cf790] rounded-2xl p-2' alt="club-log" 
-                src={require('../ClubLogos/coreTeam/Aneeket.jpg')}></img>
-                </div>
-                <div>
-                <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 object-cover border-[#0cf790] rounded-2xl p-2' alt="club-log" 
-                src={require('../ClubLogos/coreTeam/Jashandeep Singh .jpg')}></img>
-                </div>
+         <div className='mt-10 flex space-y-5 flex-col'>
+            <div className='flex gap-20 justify-center'>
+            <MemberCard name="Aneeket Mangal" number="56453413345" position="Mentor" image="Aneeket.jpg"/>
                 
-            
-
+                <MemberCard name="Jashandeep Singh" number="56453413345" position="Mentor" image="Jashandeep Singh .jpg"/>
+                
+                
           </div>
           <div>
-          <div className='grid lg:grid-cols-4  ml-3 grid-cols-2 lg:ml-[20%] gap-6'>
-          <div>
+          <div className='flex justify-center gap-20'>
           
-                <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 object-cover border-[#0cf790] rounded-2xl p-2' alt="club-log" 
-                src={require('../ClubLogos/coreTeam/Sakshi Bhagdikar .jpg')}></img>
-                </div>
-                <div>
-                <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 object-cover border-[#0cf790] rounded-2xl p-2' alt="club-log" 
-                src={require('../ClubLogos/coreTeam/Pratham.jpg')}></img>
-                </div>
-                <div>
-                <img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 object-cover border-[#0cf790] rounded-2xl p-2' alt="club-log" 
-                src={require('../ClubLogos/coreTeam/Swaran.jpg')}></img>
-                </div>
+         
+                <MemberCard name="Sakshi Bhagdikar" number="56453413345" position="Representative" image="Sakshi Bhagdikar .jpg"/>
+                <MemberCard name="Pratham R. Wadhwa" number="56453413345" position="Co-ordinator" image="Pratham.jpg"/>
+                <MemberCard name="Swaran Pratap Singh" number="56453413345" position="Co-ordinator" image="Swaran.jpg"/>
+                
+                
+              
+                
+
+                
+
+               
                 
             
 
           </div>
           </div>
           
-        </div>
         </div>
         </motion.div>
       )}
@@ -273,6 +254,24 @@ export default function Alfaaz() {
         </div>
       </div>
 </div>
+<footer>
+      <div className="footer-container p-2 bg-[#40d695]">
+      <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
+        <div className="social-icons mx-auto flex gap-10 justify-center">
+         
+          <a href="https://www.instagram.com/your_instagram_page" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={20} className='text-black '/>
+          </a>
+          <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={20} className='text-black '/>
+          </a>
+          <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+            <FaEnvelope size={20} className='text-black '/>
+          </a>
+        </div>
+      </div>
+      
+    </footer>
 
     </div>
   )

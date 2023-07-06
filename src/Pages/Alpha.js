@@ -143,7 +143,7 @@ export default function Alpha() {
             transition={{ duration: 0.5 }}
           >
             <div className='mt-10 flex space-y-5 flex-col'>
-              <div className='flex gap-20 justify-center'>
+              <div className='grid grid-cols-2 lg:mx-auto gap-10'>
               <MemberCard name="Asad Alam" number="56453413345" position="Secretary" image="Asad.jpg"/>
              
               <MemberCard name="Anshul Mittal" number="56453413345" position="Representative" image="Anshul.jpg"/>
@@ -151,7 +151,7 @@ export default function Alpha() {
 
               </div>
               <div>
-                <div className='flex justify-center gap-20'>
+                <div className='grid grid-cols-2 lg:grid-cols-4 gap-10'>
 
                 <MemberCard name="Keshav Bansal" number="56453413345" position="Co-ordinator" image="Keshav.jpg"/>
                 <MemberCard name="Manavditya" number="56453413345" position="Co-ordinator" image="Manavaditya.jpg"/>
@@ -180,31 +180,21 @@ export default function Alpha() {
             transition={{ duration: 0.5 }}
           >
             <div className='mt-10 flex space-y-5 flex-col'>
-              <div className='flex gap-20 justify-center'>
+              <div className='grid grid-cols-1  mx-auto gap-10'>
               <MemberCard name="Anany Dhamija" number="56453413345" position="Representative" image="Anany.jpg"/>
             
              
 
               </div>
-              <div>
-                <div className='flex justify-center gap-20'>
+            
+                <div className='grid grid-cols-2 lg:mx-auto lg:grid-cols-3 mx-auto gap-10'>
 
                 <MemberCard name="Asad Alam" number="56453413345" position="Co-ordinator" image="Asad.jpg"/>
              
                 <MemberCard name="Shubham Choudhary" number="56453413345" position="Co-ordinator" image="Shubham_.jpg"/>
              
                 <MemberCard name="Ashish Rana" number="56453413345" position="Co-ordinator" image="Ashish.jpg"/>
-             
-
-
-
-
-
-
-
-
-
-                </div>
+          
               </div>
 
             </div>

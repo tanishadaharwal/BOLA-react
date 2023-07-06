@@ -142,14 +142,14 @@ export default function DebSoc() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-          <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='flex gap-20 justify-center'>
+          <div className='mt-10 flex space-y-5 px-1 lg:px-20  flex-col'>
+            <div className='grid grid-cols-2 lg:mx-auto gap-10'>
             <MemberCard name="Aditya Sahu" number="56453413345" position="Secretary" image="Aditya_.jpg"/>
             <MemberCard name="Aditya Vikram" number="56453413345" position="Representative" image="Vikram.jpg"/>
 
           </div>
           <div>
-          <div className='flex justify-center gap-12'>
+          <div className='grid grid-cols-2 lg:grid-cols-5 gap-10'>
           <MemberCard name="Darius Johanan" number="56453413345" position="Co-ordinator" image="Darius.jpg"/>
           <MemberCard name="Ananya Bansal" number="56453413345" position="Co-ordinator" image="Ananya Bansal.jpg"/>
              
@@ -180,14 +180,14 @@ export default function DebSoc() {
          exit={{ opacity: 0 }}
          transition={{ duration: 0.5 }}
        >
-         <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='flex gap-20 justify-center'>
+         <div className='mt-10 flex space-y-5 px-1 lg:px-20  flex-col'>
+            <div className='grid grid-cols-2 lg:mx-auto gap-10'>
             <MemberCard name="Drishti Jain" number="56453413345" position="Mentor" image="Drishti.jpg"/>
             <MemberCard name="Niti Shyamsukha" number="56453413345" position="Representative" image="Niti.PNG"/>
 
           </div>
           <div>
-          <div className='flex justify-center gap-12'>
+          <div className='grid grid-cols-2 lg:grid-cols-4 gap-10'>
           <MemberCard name="Akshit Singh" number="56453413345" position="Co-ordinator" image="Akshit.jpg"/>
           <MemberCard name="Anurag Meena" number="56453413345" position="Co-ordinator" image="Anurag.jpg"/>
              

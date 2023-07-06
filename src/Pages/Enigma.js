@@ -144,14 +144,14 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
         transition={{ duration: 0.5 }}
       >
           <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='flex gap-20 justify-center'>
+            <div className='grid grid-cols-2 lg:mx-auto gap-10'>
             <MemberCard name="Kartik Tiwari" number="56453413345" position="Secretary" image="Kartik.jpeg"/>
            
             <MemberCard name="Amitoj Singh" number="56453413345" position="Co-ordinator" image="Amitoj.jpg"/>
 
           </div>
           <div>
-          <div className='flex justify-center gap-20'>
+          <div className='grid grid-cols-2 lg:grid-cols-4 gap-10'>
          
          
           <MemberCard name="Mrinal Maurya" number="56453413345" position="Co-ordinator" image="Mrinal Maurya.JPG"/>
@@ -177,32 +177,19 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
          transition={{ duration: 0.5 }}
        >
          <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='flex gap-20 justify-center'>
+            <div className='grid grid-cols-2 lg:mx-auto gap-10'>
             <MemberCard name="Sakshat Chahal" number="56453413345" position="Mentor" image="Sakshat.jpg"/>
             <MemberCard name="Hardik Rana" number="56453413345" position="Mentor" image="Hardik Rana.jpg"/>
-            <MemberCard name="Aditya Raj" number="56453413345" position="Representative" image="Aditya.jpg"/>
+            
           </div>
-          <div>
-          <div className='flex justify-center gap-20'>
+          
+          <div className='grid grid-cols-2 mx-auto lg:grid-cols-4 gap-10'>
+          <MemberCard name="Aditya Raj" number="56453413345" position="Representative" image="Aditya.jpg"/>
           <MemberCard name="Aryan Singh" number="56453413345" position="Co-ordinator" image="Aryan.jpg"/>
           <MemberCard name="Kartik Tiwari" number="56453413345" position="Co-ordinator" image="Kartik.jpeg"/>
            
           <MemberCard name="Varun Sharma" number="56453413345" position="Co-ordinator" image="Varun sharma.jpg"/>
           
-
-
-                
-
-              
-                
-
-                
-
-               
-                
-            
-
-          </div>
           </div>
           
         </div>

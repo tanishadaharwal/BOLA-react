@@ -143,14 +143,14 @@ export default function Filmski() {
         transition={{ duration: 0.5 }}
       >
           <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='flex gap-20 justify-center'>
+            <div className='grid grid-cols-2 lg:mx-auto gap-10'>
             <MemberCard name="Shubhendu Kumar" number="56453413345" position="Mentor" image="Shubhendu Kumar.jpg"/>
             
             <MemberCard name="Priyanshu Gupta" number="56453413345" position="Representative" image="Priyanshu Gupta.jpg"/>
 
           </div>
           <div>
-          <div className='flex justify-center gap-12'>
+          <div className='grid grid-cols-2 lg:grid-cols-5 gap-10'>
           
           <MemberCard name="Bhargav Naidu" number="56453413345" position="Co-ordinator" image="Bhargav.jpg"/>
           <MemberCard name="Vikram Sharma" number="56453413345" position="Co-ordinator" image="Vikram.jpg"/>
@@ -176,7 +176,7 @@ export default function Filmski() {
          transition={{ duration: 0.5 }}
        >
          <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='flex gap-20 justify-center'>
+            <div className='grid grid-cols-2 lg:mx-auto gap-10'>
             <MemberCard name="Prem Dayal" number="56453413345" position="Mentor" image="Prem Dayal.jpg"/>
             
             <MemberCard name="Shubhendu Kumar" number="56453413345" position="Secratary" image="Shubhendu Kumar.jpg"/>
@@ -184,7 +184,7 @@ export default function Filmski() {
 
           </div>
           <div>
-          <div className='flex justify-center gap-12'>
+          <div className='grid grid-cols-2 lg:grid-cols-5 gap-10'>
           
           <MemberCard name="Karandeep Das" number="56453413345" position="Co-ordinator" image="karan deep das.jpg"/>
           <MemberCard name="Gaurav Wani" number="56453413345" position="Co-ordinator" image="Gaurav Wani.png"/>

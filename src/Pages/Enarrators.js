@@ -145,13 +145,13 @@ The oratory club provides a supportive environment that helps you master the art
         transition={{ duration: 0.5 }}
       >
           <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='flex gap-20 justify-center'>
+            <div className='grid grid-cols-2 lg:mx-auto gap-10'>
             <MemberCard name="Maneesh Aggarwal" number="56453413345" position="Secretary" image="Maneesh.jpg"/>
             <MemberCard name="Kanishq Sahu" number="56453413345" position="Representative" image="Kanishq Sahu.jpg"/>
 
           </div>
           <div>
-          <div className='flex justify-center gap-12'>
+          <div className='grid grid-cols-2 lg:grid-cols-4 gap-10'>
           <MemberCard name="Kashish Yadav" number="56453413345" position="Co-ordinator" image="Kashish.jpg"/>
          
           <MemberCard name="Kultaj Singh" number="56453413345" position="Co-ordinator" image="Kultaj Singh.jpg"/>
@@ -183,27 +183,18 @@ The oratory club provides a supportive environment that helps you master the art
          transition={{ duration: 0.5 }}
        >
          <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='flex gap-20 justify-center'>
+            <div className='grid grid-cols-1 mx-auto lg:mx-auto gap-10'>
            
             <MemberCard name="Charukant Rao" number="56453413345" position="Representative" image="Charukant.jpg"/>
 
           </div>
-          <div>
-          <div className='flex justify-center gap-12'>
+         
+          <div className='grid grid-cols-2 lg:grid-cols-3 mx-auto lg:mx-auto gap-10'>
           <MemberCard name="Maneesh Aggarwal" number="56453413345" position="Co-ordinator" image="Maneesh.jpg"/>
           <MemberCard name="Manan Dangwal" number="56453413345" position="Co-ordinator" image="Manan.jpg"/>
             
           <MemberCard name="Vivek Chadgal" number="56453413345" position="Co-ordinator" image="Vivek.jpg"/>
-          
-
-
-                
-
-               
-                
-            
-
-          </div>
+        
           </div>
           
         </div>

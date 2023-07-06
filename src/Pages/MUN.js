@@ -142,15 +142,15 @@ export default function MUN() {
         transition={{ duration: 0.5 }}
       >
           <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='flex gap-20 justify-center'>
+            <div className='grid grid-cols-2 lg:mx-auto gap-10'>
             <MemberCard name="Ashmit Gupta" number="56453413345" position="Secretary" image="Ashmit_.jpg"/>
             
             <MemberCard name="Anshika Bhatia" number="56453413345" position="Secretary" image="Anshika_.jpg"/>
-            <MemberCard name="Akshat Pathak" number="56453413345" position="Representative" image="Akshat Pathak.jpg"/>
+            
           </div>
           <div>
-          <div className='flex justify-center gap-20'>
-          
+          <div className='grid grid-cols-2 mx-auto lg:grid-cols-5 gap-10'>
+          <MemberCard name="Akshat Pathak" number="56453413345" position="Representative" image="Akshat Pathak.jpg"/>
                 
           <MemberCard name="Ananya Sethi" number="56453413345" position="Co-ordinator" image="Ananya Sethi.jpg"/>
           <MemberCard name="Aryan Daga" number="56453413345" position="Co-ordinator" image="Aryan daga.jpg"/>
@@ -179,27 +179,20 @@ export default function MUN() {
          transition={{ duration: 0.5 }}
        >
          <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='flex gap-20 justify-center'>
+            <div className='grid grid-cols-2 lg:mx-auto gap-10'>
             <MemberCard name="Akshat" number="56453413345" position="Mentor" image="Akshat_.jpg"/>
             
             <MemberCard name="Ashmit Gupta" number="56453413345" position="Representative" image="Ashmit_.jpg"/>
 
           </div>
-          <div>
-          <div className='flex justify-center gap-20'>
+         
+          <div className='grid grid-cols-2 lg:mx-auto gap-10 '>
              
           <MemberCard name="Abhishek Jaiswal" number="56453413345" position="Co-ordinator" image="Abhishek Jaiswal.jpg"/>
           
           <MemberCard name="Harshit" number="56453413345" position="Co-ordinator" image="Harshit.jpg"/>
+          </div>
           
-                
-
-               
-                
-            
-
-          </div>
-          </div>
           
         </div>
         </motion.div>

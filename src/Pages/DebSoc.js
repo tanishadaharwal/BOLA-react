@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import DebSocLogo from '../ClubLogos/DebSoc.png';
 import Carousel from 'react-multi-carousel';
 import Reveal from '../components/Reveal';
-import {useState} from "react";
+import { useState } from "react";
 import { motion } from 'framer-motion';
-import { FaEnvelope, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import MemberCard from '../components/MemberCard';
 export default function DebSoc() {
   const [selectedYear, setSelectedYear] = useState('2023-2024');

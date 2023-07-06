@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 import AlphaLogo from '../ClubLogos/Alpha Productions.jpg';
 import Carousel from 'react-multi-carousel';
 import Reveal from '../components/Reveal';
 import { useState } from "react";
 import { motion } from 'framer-motion';
 import MemberCard from '../components/MemberCard';
-import { FaEnvelope, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
 export default function Alpha() {
   const [selectedYear, setSelectedYear] = useState('2023-2024');
 

@@ -1,7 +1,6 @@
 import React from 'react';
-import { FaArrowLeft, FaEnvelope, FaInstagram, FaLinkedin, FaLocationArrow, FaMapMarked, FaMapMarkedAlt, FaMapMarker, FaMapPin, FaPhone, FaSearchLocation, FaArrowRight } from 'react-icons/fa';
-import Logo from "../ClubLogos/BOLA-1.png"
-import Reveal2 from './Reveal2';
+import { FaEnvelope, FaInstagram, FaMapMarkedAlt, FaPhone, FaArrowRight } from 'react-icons/fa';
+import Logo from "../ClubLogos/BOLA-1.png";
 const Footer = () => {
   return (
     <footer className="bg-gray-400 ">
@@ -12,7 +11,7 @@ const Footer = () => {
           <div className=" ">
             <div className='flex'>
               <div>
-                <img className="h-16 w-16 rounded-full"src={Logo}/>
+                <img className="h-16 w-16 rounded-full"src={Logo} alt="bola logo"/>
               </div>
               <div>
               <h3 className="text-lg font-bold ml-2 my-auto">Board Of Literary Affairs</h3>
@@ -63,7 +62,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-2">Quick Links</h3>
             <div className="flex flex-col w-40  gap-2">
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600  pr-4 hover:text-black transition duration-300 ease-in-out"
   >
     <div className='flex gap-2  '>
@@ -73,7 +72,7 @@ const Footer = () => {
     
   </a>
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
     <div className='flex gap-2 '>
@@ -82,7 +81,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2 '>
@@ -91,7 +90,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2 '>
@@ -100,7 +99,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2 '>
@@ -109,7 +108,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2'>
@@ -123,7 +122,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-2">Social Media Handles</h3>
             <div className="flex flex-col w-52 gap-2">
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600  pr-4 hover:text-black transition duration-300 ease-in-out"
   >
     <div className='flex gap-2  '>
@@ -133,7 +132,7 @@ const Footer = () => {
     
   </a>
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
     <div className='flex gap-2 '>
@@ -142,7 +141,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2 '>
@@ -151,7 +150,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2 '>
@@ -160,7 +159,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2 '>
@@ -169,7 +168,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2'>
@@ -179,7 +178,7 @@ const Footer = () => {
 
   </a>
   <a
-    href="#"
+    href="www.google.com"
     className="text-gray-600 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2'>

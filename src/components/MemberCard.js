@@ -1,8 +1,8 @@
-import React from 'react'
-import { useState } from 'react'
+import React from 'react';
+import { useState } from 'react';
 
 import Reveal2 from './Reveal';
-import { FaEnvelope, FaInstagram, FaLinkedin, FaMailBulk, FaWhatsapp } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
 export default function MemberCard({name, number, image, position}) {
     const [isHovered, setIsHovered] = useState(false);
 

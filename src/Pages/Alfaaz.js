@@ -8,7 +8,7 @@ import MemberCard from '../components/MemberCard';
 import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
 export default function Alfaaz() {
   const [selectedYear, setSelectedYear] = useState('2023-2024');
-  const [showDetails, setShowDetails] = useState(false);
+ 
   const handleYearChange = (year) => {
     setSelectedYear(year);
   };

@@ -1,9 +1,9 @@
 import { useState } from "react";
 import React from "react";
-import {FaBars, FaCertificate, FaHome, FaIdCard, FaLayerGroup, FaLink, FaList, FaPagelines, FaParagraph, FaTimes, FaPager } from "react-icons/fa";
-import { Link as LinkRoll} from "react-scroll";
-import {Link} from "react-router-dom"
-import BOLA from "../ClubLogos/BOLA-1.png"
+import { FaBars, FaHome, FaIdCard, FaLayerGroup, FaLink, FaList, FaTimes, FaPager } from "react-icons/fa";
+import { Link as LinkRoll } from "react-scroll";
+import { Link } from "react-router-dom";
+import BOLA from "../ClubLogos/BOLA-1.png";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [showClubs, setShowClubs] = useState(false);

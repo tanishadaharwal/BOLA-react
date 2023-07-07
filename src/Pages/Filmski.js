@@ -101,11 +101,11 @@ export default function Filmski() {
   swipeable
 >
 
-<div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log" src={FilmskiLogo}></img></div>
-    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src={FilmskiLogo}></img></div>
-    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src={FilmskiLogo}></img></div>
-    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src={FilmskiLogo}></img></div>
-    <div className=''><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src={FilmskiLogo}></img></div>
+<div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log" src={require("../Filmski/8.jpg")}></img></div>
+    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log"src={require("../Filmski/3.jpg")}></img></div>
+    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log"src={require("../Filmski/4.jpg")}></img></div>
+    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log"src={require("../Filmski/5.jpg")}></img></div>
+    <div className=''><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log"src={require("../Filmski/10.jpg")}></img></div>
     
 </Carousel></div>
     <hr className=" border-2  mx-5 border-gray-300 mt-10" />

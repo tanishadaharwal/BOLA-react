@@ -27,8 +27,8 @@ export default function Ennarators() {
       <div className='lg:ml-20 mx-5'>
 <h1 className='text-4xl mt-10 text-[#ebecf3] font-bold mb-6'>About✨</h1>
 <p className='font-medium text-[#ebecf3] leading-10'>Enarrators, the Oratory Club of IIT Ropar, is a dynamic student community dedicated to fostering public speaking and communication skills among its members. Enarrators objective is to establish a platform that allows students to boldly and successfully express themselves via the art of oratory.
-Are you ready to captivate the audience with your words, influence minds, and leave a lasting impact? Whether you want to be a fascinating public speaker, a dynamic leader, or a persuasive influencer, our club will provide you with the tools and techniques needed to excel.
-The oratory club provides a supportive environment that helps you master the art of persuasion with powerful questioning techniques that ignite curiosity, engage audiences, drive impactful discussions, and can transform an ordinary speech into an extraordinary experience. Embrace the opportunity to make a lasting impact with your words.
+
+The oratory club provides a supportive environment that helps you master the art of persuasion with powerful questioning techniques that ignite curiosity, engage audiences, drive impactful discussions, and can transform an ordinary speech into an extraordinary experience.
 </p>
 </div>
       </Reveal>
@@ -103,11 +103,11 @@ The oratory club provides a supportive environment that helps you master the art
   swipeable
 >
 
-<div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log" src={EnnaratorsLogo}></img></div>
-    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src={EnnaratorsLogo}></img></div>
-    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src={EnnaratorsLogo}></img></div>
-    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src={EnnaratorsLogo}></img></div>
-    <div className=''><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src={EnnaratorsLogo}></img></div>
+<div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log" src={require("../Enarrators/1.png")}></img></div>
+    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log"src={require("../Enarrators/4.png")}></img></div>
+    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log"src={require("../Enarrators/3.png")}></img></div>
+    <div className=' '><img loading="lazy"  className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log"src={require("../Enarrators/5.png")}></img></div>
+   
     
 </Carousel></div>
     <hr className=" border-2  mx-5 border-gray-300 mt-10" />

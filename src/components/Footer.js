@@ -62,7 +62,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-2">Quick Links</h3>
             <div className="flex flex-col w-40  gap-2">
   <a
-    href="www.google.com"
+    href="https://www.iitrpr.ac.in/"
     className="text-gray-600  pr-4 hover:text-black transition duration-300 ease-in-out"
   >
     <div className='flex gap-2  '>
@@ -72,7 +72,7 @@ const Footer = () => {
     
   </a>
   <a
-    href="www.google.com"
+    href="https://www.iitrpr.ac.in/ismp/"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
     <div className='flex gap-2 '>
@@ -81,7 +81,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="www.google.com"
+    href="https://www.iitrpr.ac.in/ug-section"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2 '>
@@ -90,7 +90,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="www.google.com"
+    href="https://www.iitrpr.ac.in/pg-section"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2 '>
@@ -99,7 +99,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="www.google.com"
+    href="https://www.iitrpr.ac.in/moodle/"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2 '>
@@ -108,7 +108,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="www.google.com"
+    href="https://alumni.iitrpr.ac.in/"
     className="text-gray-600 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2'>

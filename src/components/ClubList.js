@@ -9,7 +9,7 @@ import Reveal from './Reveal';
 export default function ClubList() {
   return (
    
-    <div className='lg:px-36 pt-36 px-5  '>
+    <div name="clubs" className='lg:px-36 pt-36 px-5  '>
       <Reveal>
       <h1 className='text-4xl px-4 text-left lg:text-center text-[#0cf790] font-bold mb-6'>Clubs under BOLA</h1>
     <hr className="w-full border-2 border-gray-300 mt-8" />

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState} from "react";
 import React from "react";
 import { FaBars, FaHome, FaIdCard, FaLayerGroup, FaLink, FaList, FaTimes, FaPager } from "react-icons/fa";
 import { Link as LinkRoll } from "react-scroll";
@@ -8,6 +8,7 @@ const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [showClubs, setShowClubs] = useState(false);
   const [showLinks, setShowLinks] = useState(false);
+
 
   const handleClubHover = () => {
     setShowClubs(true);
@@ -121,29 +122,29 @@ const NavBar = () => {
       {nav && (
         <div className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800">
           <div className="px-4 cursor-pointer capitalize py-6 text-4xl">
-            <Link onClick={() => setNav(!nav)} to="home" smooth duration={500}>
+            <Link onClick={() => setNav(!nav)} to="/" smooth duration={500}>
               Home
             </Link>
           </div>
           <div className="px-4 cursor-pointer capitalize py-6 text-4xl">
-            <Link onClick={() => setNav(!nav)} to="about" smooth duration={500}>
+            <LinkRoll onClick={() => setNav(!nav)} to="aboutUs" smooth duration={500}>
               About
+            </LinkRoll>
+          </div>
+          <div className="px-4 cursor-pointer capitalize py-6 text-4xl">
+            <Link  to="/event-gallery" onClick={() => setNav(!nav)} smooth duration={200}>
+              BOLA Gallery
             </Link>
           </div>
           <div className="px-4 cursor-pointer capitalize py-6 text-4xl">
-            <Link onClick={() => setNav(!nav)} to="projects" smooth duration={500}>
-              Projects
+            <Link onClick={() => setNav(!nav)} smooth duration={500} to="https://docs.google.com/document/d/1wCkjDxrwtr7Rb8CUqH7OOtMMsEJt66viU-CDxXoCeDY/edit" target="_blank" rel="noopener noreferrer">
+              Calendar
             </Link>
           </div>
           <div className="px-4 cursor-pointer capitalize py-6 text-4xl">
-            <Link onClick={() => setNav(!nav)} to="experience" smooth duration={500}>
-              Experience
-            </Link>
-          </div>
-          <div className="px-4 cursor-pointer capitalize py-6 text-4xl">
-            <Link onClick={() => setNav(!nav)} to="contact" smooth duration={500}>
-              Contact
-            </Link>
+          <LinkRoll onClick={() => setNav(!nav)} to="clubs" smooth duration={500}>
+              Clubs
+            </LinkRoll>
           </div>
         </div>
       )}

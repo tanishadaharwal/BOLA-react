@@ -10,6 +10,7 @@ import Filmski from "./Pages/Filmski";
 import MUN from "./Pages/MUN";
 import Alpha from "./Pages/Alpha";
 import Home from "./Pages/Home";
+import ClubList from "./components/ClubList";
 function App() {
 
  
@@ -17,6 +18,7 @@ function App() {
     <Router >
        <Routes>
                 <Route path="/" element={<Home />}/>
+                <Route path="/clubs" element={<ClubList />}/>
                 <Route path="/clubs/Alfaaz" element={<Alfaaz />}/>
                 <Route path="/clubs/DebSoc" element={<DebSoc />}/>
                 <Route path="/clubs/Enigma" element={<Enigma />}/>

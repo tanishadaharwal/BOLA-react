@@ -9,7 +9,7 @@ export default function MessageFA() {
             <hr className="w-full border-2 border-gray-300 mt-8" />
             <div className='lg:flex flex-row justify-between  space-x-5'>
             <div>
-            <img loading="lazy"  className=" rounded-xl mx-auto lg:w-72 lg:h-80 w-40 h-60 object-cover hover:scale-110 duration-300 mt-8" alt="FA"src="FA.jpg"></img>
+            <img loading="lazy"  className=" rounded-full mx-auto lg:w-80 lg:h-80 w-60 h-60 object-cover hover:scale-110 duration-300 mt-8" alt="FA"src="FA.jpg"></img>
               <h4 className='text-lg mt-3 text-center mx-auto text-[#ebecf3]'>Dr. Aparna Nandha</h4>
             </div>
             

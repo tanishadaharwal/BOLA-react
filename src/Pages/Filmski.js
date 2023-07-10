@@ -16,7 +16,7 @@ export default function Filmski() {
     <div className='pt-20 bg-[#111011] '>
       <div className='flex justify-center space-x-4'>
       <div className='text-center text-[#ebecf3] p-1  text-5xl font-bold'>
-      Enigma
+      Filmski
     </div>
     <div><img loading="lazy"  className='h-16 w-16  rounded-full p-2' alt="club-log" src={FilmskiLogo}></img></div>
       </div>
@@ -144,7 +144,7 @@ export default function Filmski() {
       >
           <div className='mt-10 flex space-y-5 flex-col'>
             <div className='grid grid-cols-2 lg:mx-auto gap-10'>
-            <MemberCard name="Shubhendu Kumar" number="56453413345" position="Mentor" image="Shubhendu Kumar.jpg"/>
+            <MemberCard name="Shubhendu Kumar" number="56453413345" position="Secretary" image="Shubhendu Kumar.jpg"/>
             
             <MemberCard name="Priyanshu Gupta" number="56453413345" position="Representative" image="Priyanshu Gupta.jpg"/>
 
@@ -179,7 +179,7 @@ export default function Filmski() {
             <div className='grid grid-cols-2 lg:mx-auto gap-10'>
             <MemberCard name="Prem Dayal" number="56453413345" position="Mentor" image="Prem Dayal.jpg"/>
             
-            <MemberCard name="Shubhendu Kumar" number="56453413345" position="Secratary" image="Shubhendu Kumar.jpg"/>
+            <MemberCard name="Shubhendu Kumar" number="56453413345" position="Representative" image="Shubhendu Kumar.jpg"/>
 
 
           </div>
@@ -208,48 +208,11 @@ export default function Filmski() {
       )}
     </div>
 
-<hr className=" border-2 mx-5 border-gray-300 mt-8" />
-<div className='lg:mx-36 mx-5'>
-  <h1 className='text-4xl mt-10 font-bold mb-6 text-[#ebecf3]'>Achievements🏆</h1>
-      <div className='gird gird-cols-1 pb-10 '>
-        <div>
-          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
-          Aaveg, IIT Bhubaneswar
-
-          </h1>
-          <p className='leading-10 text-[#ebecf3]'>5 participants cleared the preliminary online round of Aaveg, the poetry competition in IIT Bhubaneshwar’s literary fest, LitSpree. Mr. Aneeket Mangal bagged the first prize in the finals.
-</p>
-        </div>
-        <div>
-          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
-          Inter IIT Cult-cum- Lit- Meet
+{/* <hr className=" border-2 mx-5 border-gray-300 mt-8" /> */}
 
 
-          </h1>
-          <p className='leading-10 text-[#ebecf3]'>Alfaaz was represented in the Slam Poetry and creative story writing event. Tiya Jain and Sakshi Bhagdikar bagged the fourth position among participants from 23 IITs in the Hindi creative writing event.
-</p>
-        </div>
-        <div>
-          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
-          Hindi Cell Poetry Event:
-
-          </h1>
-          <p className='leading-10 text-[#ebecf3]'>Alfaaz members, Ganesh Gurjar, Amit Kumar, and Shalini bagged the top three positions in the Poetry Recitation Competition organized by Hindi Cell, IIT Ropar.
-</p>
-        </div>
-        <div>
-          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
-          Avittri : Kavi Sammelan by the greatest contemporary poets
-
-          </h1>
-          <p className='leading-10 text-[#ebecf3]'>Graced by the finest poets of modern India, such as Aman Akshar, Azhar Iqbal, Khushbir Singh Shaad, Shashikant Yadav, Abhay Nirbheek and Aayushi Rakhecha, the event was a huge success, with the participation and appreciation of an audience of over 1000, comprising of almost all members of the IIT Ropar fraternity.
-
-</p>
-        </div>
-      </div>
-</div>
 <footer>
-      <div className="footer-container p-2 bg-[#40d695]">
+      <div className="footer-container p-2 mt-10  bg-gray-400 text-black">
       <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
         <div className="social-icons mx-auto flex gap-10 justify-center">
          

@@ -210,7 +210,7 @@ The oratory club provides a supportive environment that helps you master the art
       </div>
 </div>
 <footer>
-      <div className="footer-container p-2 bg-[#40d695]">
+      <div className="footer-container p-2 bg-gray-400 text-black">
       <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
         <div className="social-icons mx-auto flex gap-10 justify-center">
          

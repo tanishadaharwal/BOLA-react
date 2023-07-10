@@ -151,14 +151,14 @@ export default function Alpha() {
 
               </div>
               <div>
-                <div className='grid grid-cols-2 lg:grid-cols-4 gap-10'>
+                <div className='grid grid-cols-2 lg:grid-cols-5 space-x-2'>
 
                 <MemberCard name="Keshav Bansal" number="56453413345" position="Co-ordinator" image="Keshav.jpg"/>
                 <MemberCard name="Manavditya" number="56453413345" position="Co-ordinator" image="Manavaditya.jpg"/>
                 <MemberCard name="Gautham Raju" number="56453413345" position="Co-ordinator" image="gautham.jpg"/>
                 <MemberCard name="Krish Soliya" number="56453413345" position="Co-ordinator" image="Krish.jpg"/>
              
-
+                <MemberCard name="Piyush Chhabra" number="56453413345" position="Co-ordinator" image="Piyush.jpg"/>
 
 
 
@@ -226,7 +226,7 @@ export default function Alpha() {
         </div>
       </div>
       <footer>
-      <div className="footer-container p-2 bg-[#40d695]">
+      <div className="footer-container p-2 bg-gray-400 text-black">
       <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
         <div className="social-icons mx-auto flex gap-10 justify-center">
          

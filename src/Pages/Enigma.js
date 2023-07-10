@@ -143,10 +143,10 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
         transition={{ duration: 0.5 }}
       >
           <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='grid grid-cols-2 lg:mx-auto gap-10'>
+            <div className='grid grid-cols-3 lg:mx-auto gap-10'>
             <MemberCard name="Kartik Tiwari" number="56453413345" position="Secretary" image="Kartik.jpeg"/>
-           
-            <MemberCard name="Amitoj Singh" number="56453413345" position="Co-ordinator" image="Amitoj.jpg"/>
+            <MemberCard name="Varun Sharma" number="56453413345" position="Secretary" image="Varun sharma.jpg"/>
+            <MemberCard name="Amitoj Singh" number="56453413345" position="Representative" image="Amitoj.jpg"/>
 
           </div>
           <div>
@@ -210,7 +210,7 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
         </div>
         <div>
           <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
-          IISER Mohal
+          IISER Mohali
 
 
           </h1>
@@ -218,10 +218,10 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
         </div>
         <div>
           <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
-          IIT Bhilai quizzing event
+          IIT Bhilai Exquisite 2.0
 
           </h1>
-          <p className='leading-10 text-[#ebecf3]'>Exquisite 4.0</p>
+          <p className='leading-10 text-[#ebecf3]'>2nd position in Exquisite 2.0</p>
         </div>
         <div>
           <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
@@ -230,10 +230,17 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
           </h1>
           <p className='leading-10 text-[#ebecf3]'>Third position in general quiz in Zeitgeist</p>
         </div>
+        <div>
+          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+          IIT Bhilai
+
+          </h1>
+          <p className='leading-10 text-[#ebecf3]'> Exquisite 4.0</p>
+        </div>
       </div>
 </div>
 <footer>
-      <div className="footer-container p-2 bg-[#40d695]">
+      <div className="footer-container p-2 bg-gray-400 text-black">
       <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
         <div className="social-icons mx-auto flex gap-10 justify-center">
          

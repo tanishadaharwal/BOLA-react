@@ -33,7 +33,7 @@ const NavBar = () => {
         </div>
 
         <div className="my-auto">
-          <h3 className="font-semibold text-xl">Board of Literary Affairs</h3>
+          <h3 className="font-semibold text-sm lg:text-xl">Board of Literary Affairs</h3>
           <h2 className="font-medium">IIT Ropar</h2>
         </div>
       </div>

@@ -143,15 +143,15 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
         transition={{ duration: 0.5 }}
       >
           <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='grid grid-cols-3 lg:mx-auto gap-10'>
+            <div className='grid grid-cols-2 lg:mx-auto gap-10'>
             <MemberCard name="Kartik Tiwari" number="56453413345" position="Secretary" image="Kartik.jpeg"/>
             <MemberCard name="Varun Sharma" number="56453413345" position="Secretary" image="Varun sharma.jpg"/>
-            <MemberCard name="Amitoj Singh" number="56453413345" position="Representative" image="Amitoj.jpg"/>
+            
 
           </div>
           <div>
           <div className='grid grid-cols-2 lg:grid-cols-4 gap-10'>
-         
+          <MemberCard name="Amitoj Singh" number="56453413345" position="Representative" image="Amitoj.jpg"/>
          
           <MemberCard name="Mrinal Maurya" number="56453413345" position="Co-ordinator" image="Mrinal Maurya.JPG"/>
          <MemberCard name="Aryan Singh" number="56453413345" position="Co-ordinator" image="Aryan.jpg"/>

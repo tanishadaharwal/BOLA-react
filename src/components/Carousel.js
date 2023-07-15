@@ -77,6 +77,9 @@ export default function SimpleSlider() {
       <img loading="lazy"  className='h-[650px] w-full object-cover' src="B4.jpg" alt="Imagegallery 4" />
       </div>
       <div>
+      <img loading="lazy"  className='h-[650px] w-full object-cover' src="B8.jpg" alt="Imgallery4" />
+      </div> 
+      <div>
       <img loading="lazy"  className='h-[650px] w-full object-cover' src="B5.jpg" alt="Imagegallery 4" />
       </div>
       <div>
@@ -98,6 +101,7 @@ export default function SimpleSlider() {
           
         </div>
       </div>
+      <hr className=" border-2 mx-5 border-gray-300 mt-8" />
     </div>
 
        

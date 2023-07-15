@@ -90,7 +90,7 @@ for (let i = 1; i <= 10; i ++)
         return imagesEnarrators.map((image, index) => (
           <img
             key={index}
-            src={require(`../Enarrators/${image}.png`)}
+            src={require(`../Enarrators/${image}.jpg`)}
             alt={`gallery of enarrators ${index + 1}`}
             className="lg:h-60 lg:w-96 h-36 w-52 rounded-md hover:opacity-60 object-cover hover:scale-95 border-2 border-white cursor-pointer duration-150"
           />

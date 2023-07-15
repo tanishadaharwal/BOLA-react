@@ -81,7 +81,7 @@ const NavBar = () => {
         <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#0aff9d]  duration-200" >
     
     <FaPager size={20} />
-     <Link to="https://docs.google.com/document/d/1wCkjDxrwtr7Rb8CUqH7OOtMMsEJt66viU-CDxXoCeDY/edit" target="_blank" rel="noopener noreferrer" smooth duration={500}>Constitution</Link>
+     <Link to="https://docs.google.com/document/d/1b1qrIUwwkIpnUd7-Mv1PQrxiykLYUVikpgwT5k3_BWE/edit?usp=sharing" target="_blank" rel="noopener noreferrer" smooth duration={500}>Constitution</Link>
      
     </div>
 

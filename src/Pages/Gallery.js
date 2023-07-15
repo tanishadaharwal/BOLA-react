@@ -18,10 +18,10 @@ for (let i = 1; i <= 24; i++) {
 console.log(imagesAlfaaz);
 const imagesEnarrators = [];
 const imagesAlpha = [];
-for (let i = 1; i <= 12; i++) {
+for (let i = 1; i <= 11; i++) {
   imagesAlpha.push(i.toString());
   imagesAll.push(`Alpha Productions/${i.toString()}.png`);
-  if(i <= 10)
+  if(i <= 9)
   {
     imagesFilmski.push(i.toString());
     imagesAll.push(`Filmski/${i.toString()}.jpg`);

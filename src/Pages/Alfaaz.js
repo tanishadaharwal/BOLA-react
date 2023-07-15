@@ -101,11 +101,11 @@ export default function Alfaaz() {
           swipeable
         >
 
-          <div className=' '><img loading="lazy" className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log" src={require("../Alfaaz/6.jpg")}></img></div>
-          <div className=' '><img loading="lazy" className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover  border-white rounded-2xl p-2' alt="club-log" src={require("../Alfaaz/26.jpg")}></img></div>
+          <div className=' '><img loading="lazy" className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log" src={require("../Alfaaz/5.jpg")}></img></div>
+          <div className=' '><img loading="lazy" className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover  border-white rounded-2xl p-2' alt="club-log" src={require("../Alfaaz/14.jpg")}></img></div>
+          <div className=' '><img loading="lazy" className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log" src={require("../Alfaaz/18.jpg")}></img></div>
           <div className=' '><img loading="lazy" className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log" src={require("../Alfaaz/22.jpg")}></img></div>
-          <div className=' '><img loading="lazy" className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log" src={require("../Alfaaz/28.jpg")}></img></div>
-          <div className=''><img loading="lazy" className='lg:h-96 lg:w-96 h-36 w-36 border-2 object-cover border-white rounded-2xl p-2' alt="club-log" src={require("../Alfaaz/32.jpg")}></img></div>
+
 
         </Carousel></div>
       <hr className=" border-2  mx-5 border-gray-300 mt-10" />

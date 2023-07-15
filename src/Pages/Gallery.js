@@ -10,12 +10,12 @@ export default function Gallery() {
   const imagesAlfaaz = [];
 const imagesFilmski = [];
 
-for (let i = 1; i <= 34; i++) {
+for (let i = 1; i <= 24; i++) {
   imagesAlfaaz.push(i.toString());
  
   imagesAll.push(`Alfaaz/${i.toString()}.jpg`);
 }
-console.log(imagesAll[0]) ;
+console.log(imagesAlfaaz);
 const imagesEnarrators = [];
 const imagesAlpha = [];
 for (let i = 1; i <= 12; i++) {
@@ -29,20 +29,24 @@ for (let i = 1; i <= 12; i++) {
 }
 
 const imagesDebSoc = [];
-for (let i = 1; i <= 5; i ++)
-{
-  imagesDebSoc.push(i.toString());
+for (let i = 1; i <= 18; i ++)
+{if(i<=5)
+  {
+    imagesDebSoc.push(i.toString());
+    imagesAll.push(`Debsoc/${i.toString()}.png`);
+  }
+  
   imagesEnarrators.push(i.toString());
-  imagesAll.push(`Debsoc/${i.toString()}.png`);
-  imagesAll.push(`Enarrators/${i.toString()}.png`);
+  
+  imagesAll.push(`Enarrators/${i.toString()}.jpg`);
 }
 const imagesMUN = [];
 const imagesEnigma = [];
-for (let i = 1; i <= 3; i ++)
+for (let i = 1; i <= 10; i ++)
 {
   imagesEnigma.push(i.toString());
   imagesAll.push(`Enigma/${i.toString()}.jpg`);
-  if(i <= 2)
+  if(i <= 4)
   {
     imagesMUN.push(i.toString());
     imagesAll.push(`MUN/${i.toString()}.png`);
@@ -54,15 +58,15 @@ for (let i = 1; i <= 3; i ++)
 
     switch (selectedClub) {
       case 'Alfaaz':
-        
         return imagesAlfaaz.map((image, index) => (
-        <img
-          key={index}
-          src={require(`../Alfaaz/${image}.jpg`)}
-          alt={`gallery of alfaaz ${index + 1}`}
-          className="lg:h-60 lg:w-80 h-36 w-36 rounded-md hover:opacity-60 object-cover hover:scale-95 border-2 border-white cursor-pointer duration-150"
-        />
-      ));
+          <img
+            key={index}
+            src={require(`../Alfaaz/${image}.jpg`)}
+            alt={`gallery of filmski ${index + 1}`}
+            className="lg:h-60 lg:w-80 h-36 w-36 rounded-md hover:opacity-60 object-cover hover:scale-95 border-2 border-white cursor-pointer duration-150"
+          />
+        ));
+        
 
       case 'Alpha Productions':
         return imagesAlpha.map((image, index) => (

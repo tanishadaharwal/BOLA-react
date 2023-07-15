@@ -26,7 +26,7 @@ const NavBar = () => {
     setShowLinks(false);
   }
   return (
-    <div name="/" className="flex justify-between items-center w-full h-20 px-4 text-white top-0 bg-[#1c1a1e] bg-opacity-60 z-50 fixed">
+    <div name="/" className="flex justify-between items-center w-full h-20 px-4 text-white top-0 bg-[#1c1a1e] bg-opacity-30 z-50 fixed">
       <div className="flex gap-5">
         <div>
           <img loading="lazy"  className="h-16 w-16 my-1 rounded-full" src={BOLA} alt="Logo" />

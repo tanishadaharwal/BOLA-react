@@ -184,7 +184,7 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
           
           <div className='grid grid-cols-2 mx-auto lg:grid-cols-4 gap-10'>
           <MemberCard name="Aditya Raj" number="+91 8102061991" position="Representative" image="Aditya.jpg"/>
-          <MemberCard name="Aryan Singh" number="" position="Co-ordinator" image="Aryan.jpg"/>
+          <MemberCard name="Aryan Yashvardhan" number="" position="Co-ordinator" image="Aaryan Y.jpg"/>
           <MemberCard name="Kartik Tiwari" number="" position="Co-ordinator" image="Kartik.jpeg"/>
            
           <MemberCard name="Varun Sharma" number="" position="Co-ordinator" image="Varun sharma.jpg"/>
@@ -221,7 +221,7 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
           IIT Bhilai Exquisite 4.0
 
           </h1>
-          <p className='leading-10 text-[#ebecf3]'>2nd position in Exquisite 4.0</p>
+          <p className='leading-10 text-[#ebecf3]'>1st position in Exquisite 4.0</p>
         </div>
         <div>
           <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>

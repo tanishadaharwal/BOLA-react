@@ -235,7 +235,7 @@ export default function Alfaaz() {
           </div>
           <div>
             <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
-              Avittri : Kavi Sammelan by the greatest contemporary poets
+              Aavritti : Kavi Sammelan by the greatest contemporary poets
 
             </h1>
             <p className='leading-10 text-[#ebecf3]'>Graced by the finest poets of modern India, such as Aman Akshar, Azhar Iqbal, Khushbir Singh Shaad, Shashikant Yadav, Abhay Nirbheek and Aayushi Rakhecha, the event was a huge success, with the participation and appreciation of an audience of over 1000, comprising of almost all members of the IIT Ropar fraternity.

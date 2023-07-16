@@ -144,19 +144,19 @@ export default function Filmski() {
       >
           <div className='mt-10 flex space-y-5 flex-col'>
             <div className='grid grid-cols-2 lg:mx-auto gap-10'>
-            <MemberCard name="Shubhendu Kumar" number="56453413345" position="Secretary" image="Shubhendu Kumar.jpg"/>
+            <MemberCard name="Shubhendu Kumar" number="+91 8887715399" position="Secretary" image="Shubhendu Kumar.jpg"/>
             
-            <MemberCard name="Priyanshu Gupta" number="56453413345" position="Representative" image="Priyanshu Gupta.jpg"/>
+            <MemberCard name="Priyanshu Gupta" number="+91 8690912273" position="Representative" image="Priyanshu Gupta.jpg"/>
 
           </div>
           <div>
           <div className='grid grid-cols-2 lg:grid-cols-5 gap-10'>
           
-          <MemberCard name="Bhargav Naidu" number="56453413345" position="Co-ordinator" image="Bhargav.jpg"/>
-          <MemberCard name="Vikram Sharma" number="56453413345" position="Co-ordinator" image="Vikram.jpg"/>
-          <MemberCard name="Ankur Kumar" number="56453413345" position="Co-ordinator" image="AnkurKumar.jpg"/>    
-          <MemberCard name="Hemang Tailor" number="56453413345" position="Co-ordinator" image="Hemang Tailor.jpg"/>
-          <MemberCard name="Priyanshu Singh" number="56453413345" position="Co-ordinator" image="Priyanshu Singh.jpg"/>    
+          <MemberCard name="Bhargav Naidu" number="" position="Co-ordinator" image="Bhargav.jpg"/>
+          <MemberCard name="Vikram Sharma" number="" position="Co-ordinator" image="Vikram.jpg"/>
+          <MemberCard name="Ankur Kumar" number="" position="Co-ordinator" image="AnkurKumar.jpg"/>    
+          <MemberCard name="Hemang Tailor" number="" position="Co-ordinator" image="Hemang Tailor.jpg"/>
+          <MemberCard name="Priyanshu Singh" number="" position="Co-ordinator" image="Priyanshu Singh.jpg"/>    
         
             
 
@@ -177,20 +177,20 @@ export default function Filmski() {
        >
          <div className='mt-10 flex space-y-5 flex-col'>
             <div className='grid grid-cols-2 lg:mx-auto gap-10'>
-            <MemberCard name="Prem Dayal" number="56453413345" position="Mentor" image="Prem Dayal.jpg"/>
+            <MemberCard name="Prem Dayal" number="+91 6299780199" position="Mentor" image="Prem Dayal.jpg"/>
             
-            <MemberCard name="Shubhendu Kumar" number="56453413345" position="Representative" image="Shubhendu Kumar.jpg"/>
+            <MemberCard name="Shubhendu Kumar" number="+91 8887715399" position="Representative" image="Shubhendu Kumar.jpg"/>
 
 
           </div>
           <div>
           <div className='grid grid-cols-2 lg:grid-cols-5 gap-10'>
           
-          <MemberCard name="Karandeep Das" number="56453413345" position="Co-ordinator" image="karan deep das.jpg"/>
-          <MemberCard name="Gaurav Wani" number="56453413345" position="Co-ordinator" image="Gaurav Wani.png"/>
-          <MemberCard name="Harshit" number="56453413345" position="Co-ordinator" image="Harshit.jpg"/>
-          <MemberCard name="Praneeth N" number="56453413345" position="Co-ordinator" image="Praneeth.jpg"/>
-          <MemberCard name="Swaran Pratap Singh" number="56453413345" position="Co-ordinator" image="Swaran.jpg"/>
+          <MemberCard name="Karandeep Das" number="" position="Co-ordinator" image="karan deep das.jpg"/>
+          <MemberCard name="Gaurav Wani" number="" position="Co-ordinator" image="Gaurav Wani.png"/>
+          <MemberCard name="Harshit" number="" position="Co-ordinator" image="Harshit.jpg"/>
+          <MemberCard name="Praneeth N" number="" position="Co-ordinator" image="Praneeth.jpg"/>
+          <MemberCard name="Swaran Pratap Singh" number="" position="Co-ordinator" image="Swaran.jpg"/>
                 
                 
 
@@ -216,13 +216,13 @@ export default function Filmski() {
       <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
         <div className="social-icons mx-auto flex gap-10 justify-center">
          
-          <a href="https://www.instagram.com/your_instagram_page" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/filmski_iitropar/" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={20} className='text-black '/>
           </a>
-          <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/filmski-club-iit-ropar/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={20} className='text-black '/>
           </a>
-          <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:movie.club@iitrpr.ac.in" target="_blank" rel="noopener noreferrer">
             <FaEnvelope size={20} className='text-black '/>
           </a>
         </div>

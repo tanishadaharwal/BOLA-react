@@ -146,18 +146,18 @@ The oratory club provides a supportive environment that helps you master the art
       >
           <div className='mt-10 flex space-y-5 flex-col'>
             <div className='grid grid-cols-2 lg:mx-auto gap-10'>
-            <MemberCard name="Maneesh Aggarwal" number="56453413345" position="Secretary" image="Maneesh.jpg"/>
-            <MemberCard name="Kanishq Sahu" number="56453413345" position="Representative" image="Kanishq Sahu.jpg"/>
+            <MemberCard name="Maneesh Aggarwal" number="+91 9855630374" position="Secretary" image="Maneesh.jpg"/>
+            <MemberCard name="Kanishq Sahu" number="+91 9009730530" position="Representative" image="Kanishq Sahu.jpg"/>
 
           </div>
           <div>
           <div className='grid grid-cols-2 lg:grid-cols-4 gap-10'>
-          <MemberCard name="Kashish Yadav" number="56453413345" position="Co-ordinator" image="Kashish.jpg"/>
+          <MemberCard name="Kashish Yadav" number="+91 77378 26754" position="Co-ordinator" image="Kashish.jpg"/>
          
-          <MemberCard name="Kultaj Singh" number="56453413345" position="Co-ordinator" image="Kultaj Singh.jpg"/>
-          <MemberCard name="Prachi Chhabra" number="56453413345" position="Co-ordinator" image="Prachi.jpg"/>
+          <MemberCard name="Kultaj Singh" number="+91 75280 61907" position="Co-ordinator" image="Kultaj Singh.jpg"/>
+          <MemberCard name="Prachi Chhabra" number="+91 94651 87650" position="Co-ordinator" image="Prachi.jpg"/>
              
-          <MemberCard name="Mrinal Maurya" number="56453413345" position="Co-ordinator" image="Mrinal Maurya.JPG"/>
+          <MemberCard name="Mrinal Maurya" number="+91 84093 44447" position="Co-ordinator" image="Mrinal Maurya.JPG"/>
              
           
         
@@ -183,17 +183,17 @@ The oratory club provides a supportive environment that helps you master the art
          transition={{ duration: 0.5 }}
        >
          <div className='mt-10 flex space-y-5 flex-col'>
-            <div className='grid grid-cols-1 mx-auto lg:mx-auto gap-10'>
+            <div className='grid grid-cols-2 mx-auto lg:mx-auto gap-10'>
            
-            <MemberCard name="Charukant Rao" number="56453413345" position="Representative" image="Charukant.jpg"/>
-
+            <MemberCard name="Charukant Rao" number="+91 8837875359" position="Representative" image="Charukant.jpg"/>
+            <MemberCard name="Aryan Agarwal" number="+91 9887321353" position="Mentor" image="Aryan .jpg"/>
           </div>
          
-          <div className='grid grid-cols-2 lg:grid-cols-3 mx-auto lg:mx-auto gap-10'>
-          <MemberCard name="Maneesh Aggarwal" number="56453413345" position="Co-ordinator" image="Maneesh.jpg"/>
-          <MemberCard name="Manan Dangwal" number="56453413345" position="Co-ordinator" image="Manan.jpg"/>
-            
-          <MemberCard name="Vivek Chadgal" number="56453413345" position="Co-ordinator" image="Vivek.jpg"/>
+          <div className='grid grid-cols-2 lg:grid-cols-4 mx-auto lg:mx-auto gap-10'>
+          <MemberCard name="Maneesh Aggarwal" number="" position="Co-ordinator" image="Maneesh.jpg"/>
+          <MemberCard name="Manan Dangwal" number="" position="Co-ordinator" image="Manan.jpg"/>
+          <MemberCard name="Nikhil Rastogi" number="" position="Co-ordinator" image="Nikhil Rastogi.jpg"/>
+          <MemberCard name="Vivek Chadgal" number="" position="Co-ordinator" image="Vivek.jpg"/>
         
           </div>
           
@@ -206,7 +206,40 @@ The oratory club provides a supportive environment that helps you master the art
 <div className='lg:mx-36 mx-5'>
   <h1 className='text-4xl mt-10 font-bold mb-6 text-[#ebecf3]'>Achievements🏆</h1>
       <div className='gird gird-cols-1 pb-10 '>
-        
+      <div>
+          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+          Bidvertise
+
+
+          </h1>
+          <p className='leading-10 text-[#ebecf3]'>Bidvertise, a remarkable event organised by the Enarrators Club during Zeitgeist 2023. This event witnessed the unveiling of extraordinary equipments, diligently transported from the realms of the future, which were meticulously auctioned off and artfully presented to our esteemed panel, graced by the presence of Aparna Ma'am [Professor, English (HSS Dept.)] and Bhavesh Sir[Professor, Economics (HSS Dept.)]. With over 25 teams participating, The winners of the event were:
+1st position -   Aniket Arya, Amlan Anshu,  Siddharth Girdhar
+2nd position -  Kanha Singhania, Satanshu Pathak
+3rd position -   Raj Shrivastava
+
+</p>
+        </div>
+        <div>
+          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+          Literary event under Azadi ka Amrit Mahotsav 2.0.
+
+
+          </h1>
+          <p className='leading-10 text-[#ebecf3]'>Members of the Enarrators Club: Kanishq Sahu, Kartik Tiwari, Prachi Chhabra, Prerna Singh, Unnati Singh and Safdar Naveed Amini secured first place. 
+
+
+</p>
+        </div>
+        <div>
+          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+          Declamation contest on tribal day 
+
+
+          </h1>
+          <p className='leading-10 text-[#ebecf3]'>Enarrators member: Mrs. Nekha Fatima secured the first position, with Amitoj Singh grabbing the second Position
+
+</p>
+        </div>
       </div>
 </div>
 <footer>
@@ -214,13 +247,13 @@ The oratory club provides a supportive environment that helps you master the art
       <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
         <div className="social-icons mx-auto flex gap-10 justify-center">
          
-          <a href="https://www.instagram.com/your_instagram_page" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/oratory_iitropar/?hl=en" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={20} className='text-black '/>
           </a>
-          <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/oratory-club-730751271/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={20} className='text-black '/>
           </a>
-          <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:enarrators@iitrpr.ac.in" target="_blank" rel="noopener noreferrer">
             <FaEnvelope size={20} className='text-black '/>
           </a>
         </div>

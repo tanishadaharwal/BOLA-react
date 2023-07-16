@@ -144,8 +144,8 @@ export default function Alfaaz() {
           >
             <div className='mt-10 flex space-y-5 px-1 lg:px-20  flex-col'>
               <div className='grid grid-cols-2 lg:mx-auto gap-10'>
-                <MemberCard name="Sakshi Bhagdikar" number="56453413345" position="Secretary" image="Sakshi Bhagdikar .jpg" />
-                <MemberCard name="Prerna Singh" number="56453413345" position="Representative" image="Prerna Singh.jpg" />
+                <MemberCard name="Sakshi Bhagdikar" number="+91 7587137726" position="Secretary" image="Sakshi Bhagdikar .jpg" />
+                <MemberCard name="Prerna Singh" number="+91 9389605622" position="Representative" image="Prerna Singh.jpg" />
 
 
 
@@ -153,10 +153,10 @@ export default function Alfaaz() {
               <div>
                 <div className='grid grid-cols-2 lg:grid-cols-4 gap-10'>
 
-                  <MemberCard name="Hitesh Patange" number="56453413345" position="Co-ordinator" image="Hitesh.jpg" />
-                  <MemberCard name="Abhishek Abhi" number="56453413345" position="Co-ordinator" image="Abhishek Kumar .jpg" />
-                  <MemberCard name="Amitoj Singh" number="56453413345" position="Co-ordinator" image="Amitoj.jpg" />
-                  <MemberCard name="Sunny Bharti" number="56453413345" position="Co-ordinator" image="Sunny.jpg" />
+                  <MemberCard name="Hitesh Patange" number="" position="Co-ordinator" image="Hitesh.jpg" />
+                  <MemberCard name="Abhishek Abhi" number="" position="Co-ordinator" image="Abhishek Kumar .jpg" />
+                  <MemberCard name="Amitoj Singh" number="" position="Co-ordinator" image="Amitoj.jpg" />
+                  <MemberCard name="Sunny Bharti" number="" position="Co-ordinator" image="Sunny.jpg" />
 
 
 
@@ -182,9 +182,9 @@ export default function Alfaaz() {
           >
             <div className='mt-10 flex space-y-5 px-1 lg:px-20  flex-col'>
               <div className='grid grid-cols-2 lg:mx-auto gap-10'>
-                <MemberCard name="Aneeket Mangal" number="56453413345" position="Mentor" image="Aneeket.jpg" />
+                <MemberCard name="Aneeket Mangal" number="+91 9414563923" position="Mentor" image="Aneeket.jpg" />
 
-                <MemberCard name="Jashandeep Singh" number="56453413345" position="Mentor" image="Jashandeep Singh .jpg" />
+                <MemberCard name="Jashandeep Singh" number="+91 9991338860" position="Mentor" image="Jashandeep Singh .jpg" />
 
 
               </div>
@@ -192,9 +192,9 @@ export default function Alfaaz() {
               <div className='grid grid-cols-2 lg:grid-cols-3 mx-auto gap-10'>
 
 
-                <MemberCard name="Sakshi Bhagdikar" number="56453413345" position="Representative" image="Sakshi Bhagdikar .jpg" />
-                <MemberCard name="Pratham R. Wadhwa" number="56453413345" position="Co-ordinator" image="Pratham.jpg" />
-                <MemberCard name="Swaran Pratap Singh" number="56453413345" position="Co-ordinator" image="Swaran.jpg" />
+                <MemberCard name="Sakshi Bhagdikar" number="7587137726" position="Representative" image="Sakshi Bhagdikar .jpg" />
+                <MemberCard name="Pratham R. Wadhwa" number="" position="Co-ordinator" image="Pratham.jpg" />
+                <MemberCard name="Swaran Pratap Singh" number="" position="Co-ordinator" image="Swaran.jpg" />
 
 
               </div>
@@ -249,13 +249,13 @@ export default function Alfaaz() {
           <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
           <div className="social-icons mx-auto flex gap-10 justify-center">
 
-            <a href="https://www.instagram.com/your_instagram_page" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/alfaaz_iitrpr/?hl=en" target="_blank" rel="noopener noreferrer">
               <FaInstagram size={20} className='text-black ' />
             </a>
-            <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/alfaaz-poetry-club/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin size={20} className='text-black ' />
             </a>
-            <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:alfaaz@iitrpr.ac.in" target="_blank" rel="noopener noreferrer">
               <FaEnvelope size={20} className='text-black ' />
             </a>
           </div>

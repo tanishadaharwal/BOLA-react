@@ -29,15 +29,15 @@ const Footer = () => {
             </div>
             <div className='flex gap-4 p-2'>
               <FaPhone size={20} />
-            <p>Phone: +91 92052 09274</p>
+            <p>Phone: +91 7500481739 </p>
             </div>
            <div className='flex gap-4 p-2'>
             <FaEnvelope size={20} />
-           <p>Mail us at: president.sc@iitrpr.ac.in</p>
+           <p>Mail us at: gs.lit@iitrpr.ac.in</p>
            </div>
             <div className=''> 
               <a
-                href="https://www.instagram.com/sports.iitrpr/"
+                href="https://www.instagram.com/bola.iitrpr/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" transition duration-300 ease-in-out "
@@ -122,7 +122,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-2">Social Media Handles</h3>
             <div className="flex flex-col w-52 gap-2">
   <a
-    href="www.google.com"
+    href="https://www.instagram.com/alfaaz_iitrpr/?hl=en"
     className="text-gray-600  pr-4 hover:text-black transition duration-300 ease-in-out"
   >
     <div className='flex gap-2  '>
@@ -132,7 +132,7 @@ const Footer = () => {
     
   </a>
   <a
-    href="www.google.com"
+    href="https://instagram.com/alpha_productions_iitrpr?igshid=MzRlODBiNWFlZA=="
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
     <div className='flex gap-2 '>
@@ -141,7 +141,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="www.google.com"
+    href="https://www.instagram.com/debsoc_iitropar/?hl=en"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2 '>
@@ -150,7 +150,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="www.google.com"
+    href="https://www.instagram.com/oratory_iitropar/?hl=en"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2 '>
@@ -159,7 +159,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="www.google.com"
+    href="https://www.instagram.com/enigma_iitropar/?hl=en"
     className="text-gray-600 pr-4 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2 '>
@@ -168,7 +168,7 @@ const Footer = () => {
     </div>
   </a>
   <a
-    href="www.google.com"
+    href="https://www.instagram.com/filmski_iitropar/"
     className="text-gray-600 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2'>
@@ -178,7 +178,7 @@ const Footer = () => {
 
   </a>
   <a
-    href="www.google.com"
+    href="https://www.instagram.com/mun_iitrpr/?hl=en"
     className="text-gray-600 hover:text-black transition duration-300 ease-in-out"
   >
      <div className='flex gap-2'>
@@ -196,12 +196,12 @@ const Footer = () => {
         </div>
       </div>
       <div className='bg-[#232525] lg:py-8 lg:px-24 h-full w-full' >
-        <div className='text-gray-500 w-full items-center lg:flex lg:justify-between'>
+        <div className='text-gray-400 w-full items-center lg:flex lg:justify-between'>
           <div className='lg:py-0 py-4 lg:mx-0 mx-12'>
           <h1 className='lg:text-sm text-xs'>Copyrights © 2022-23 Student Affairs IIT Ropar</h1>
           </div>
           <div className='lg:py-0 py-2 lg:mx-0 mx-14'>
-          <h1 className='lg:text-sm text-xs'>Website Developed by<span className='text-[#40d695]'> Tanisha Daharwal</span></h1>
+          <h1 className='lg:text-sm text-xs'>Website Developed by<span className='text-[#40d695]'> Web Development Team</span></h1>
           
           </div>
          

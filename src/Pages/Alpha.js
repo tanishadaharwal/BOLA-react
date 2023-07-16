@@ -5,7 +5,7 @@ import Reveal from '../components/Reveal';
 import { useState } from "react";
 import { motion } from 'framer-motion';
 import MemberCard from '../components/MemberCard';
-import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
 export default function Alpha() {
   const [selectedYear, setSelectedYear] = useState('2023-2024');
 
@@ -144,21 +144,21 @@ export default function Alpha() {
           >
             <div className='mt-10 flex space-y-5 flex-col'>
               <div className='grid grid-cols-2 lg:mx-auto gap-10'>
-              <MemberCard name="Asad Alam" number="56453413345" position="Secretary" image="Asad.jpg"/>
+              <MemberCard name="Asad Alam" number="+91 95216 41071" position="Secretary" image="Asad.jpg"/>
              
-              <MemberCard name="Anshul Mittal" number="56453413345" position="Representative" image="Anshul.jpg"/>
+              <MemberCard name="Anshul Mittal" number="+91 9015406165" position="Representative" image="Anshul.jpg"/>
              
 
               </div>
               <div>
                 <div className='grid grid-cols-2 lg:grid-cols-5 space-x-2'>
 
-                <MemberCard name="Keshav Bansal" number="56453413345" position="Co-ordinator" image="Keshav.jpg"/>
-                <MemberCard name="Manavditya" number="56453413345" position="Co-ordinator" image="Manavaditya.jpg"/>
-                <MemberCard name="Gautham Raju" number="56453413345" position="Co-ordinator" image="gautham.jpg"/>
-                <MemberCard name="Krish Soliya" number="56453413345" position="Co-ordinator" image="Krish.jpg"/>
+                <MemberCard name="Keshav Bansal" number="+91 8527782036 " position="Co-ordinator" image="Keshav.jpg"/>
+                <MemberCard name="Manavditya" number="+91 8809028859" position="Co-ordinator" image="Manavaditya.jpg"/>
+                <MemberCard name="Gautham Raju" number="+91 9591828909" position="Co-ordinator" image="gautham.jpg"/>
+                <MemberCard name="Krish Soliya" number="+91 9512119212" position="Co-ordinator" image="Krish.jpg"/>
              
-                <MemberCard name="Piyush Chhabra" number="56453413345" position="Co-ordinator" image="Piyush.jpg"/>
+                <MemberCard name="Piyush Chhabra" number="+91 8278208261" position="Co-ordinator" image="Piyush.jpg"/>
 
 
 
@@ -181,7 +181,7 @@ export default function Alpha() {
           >
             <div className='mt-10 flex space-y-5 flex-col'>
               <div className='grid grid-cols-1  mx-auto gap-10'>
-              <MemberCard name="Anany Dhamija" number="56453413345" position="Representative" image="Anany.jpg"/>
+              <MemberCard name="Anany Dhamija" number="+91 8168631664" position="Representative" image="Anany.jpg"/>
             
              
 
@@ -189,11 +189,11 @@ export default function Alpha() {
             
                 <div className='grid grid-cols-2 lg:mx-auto lg:grid-cols-3 mx-auto gap-10'>
 
-                <MemberCard name="Asad Alam" number="56453413345" position="Co-ordinator" image="Asad.jpg"/>
+                <MemberCard name="Asad Alam" number="+91 95216 41071" position="Co-ordinator" image="Asad.jpg"/>
              
-                <MemberCard name="Shubham Choudhary" number="56453413345" position="Co-ordinator" image="Shubham_.jpg"/>
+                <MemberCard name="Shubham Choudhary" number="" position="Co-ordinator" image="Shubham_.jpg"/>
              
-                <MemberCard name="Ashish Rana" number="56453413345" position="Co-ordinator" image="Ashish.jpg"/>
+                <MemberCard name="Ashish Rana" number="" position="Co-ordinator" image="Ashish.jpg"/>
           
               </div>
 
@@ -230,14 +230,17 @@ export default function Alpha() {
       <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
         <div className="social-icons mx-auto flex gap-10 justify-center">
          
-          <a href="https://www.instagram.com/your_instagram_page" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/alpha_productions_iitrpr?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={20} className='text-black '/>
           </a>
-          <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+          <a href="http://linkedin.com/in/alpha-productions-40b389283" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={20} className='text-black '/>
           </a>
-          <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:alpha@iitrpr.ac.in" target="_blank" rel="noopener noreferrer">
             <FaEnvelope size={20} className='text-black '/>
+          </a>
+          <a href="https://www.youtube.com/@alphaproductionsiitrpr" target="_blank" rel="noopener noreferrer">
+            <FaYoutube size={20} className='text-black '/>
           </a>
         </div>
       </div>

@@ -144,19 +144,19 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
       >
           <div className='mt-10 flex space-y-5 flex-col'>
             <div className='grid grid-cols-2 lg:mx-auto gap-10'>
-            <MemberCard name="Kartik Tiwari" number="56453413345" position="Secretary" image="Kartik.jpeg"/>
-            <MemberCard name="Varun Sharma" number="56453413345" position="Secretary" image="Varun sharma.jpg"/>
+            <MemberCard name="Kartik Tiwari" number="+91 8847523470" position="Secretary" image="Kartik.jpeg"/>
+            <MemberCard name="Varun Sharma" number="+91 6395696150" position="Secretary" image="Varun sharma.jpg"/>
             
 
           </div>
           <div>
-          <div className='grid grid-cols-2 lg:grid-cols-4 gap-10'>
-          <MemberCard name="Amitoj Singh" number="56453413345" position="Representative" image="Amitoj.jpg"/>
+          <div className='grid grid-cols-2 lg:grid-cols-5 gap-10'>
+          <MemberCard name="Amitoj Singh" number="+91 9501261633" position="Representative" image="Amitoj.jpg"/>
          
-          <MemberCard name="Mrinal Maurya" number="56453413345" position="Co-ordinator" image="Mrinal Maurya.JPG"/>
-         <MemberCard name="Aryan Singh" number="56453413345" position="Co-ordinator" image="Aryan.jpg"/>
-         <MemberCard name="Kanishq Sahu" number="56453413345" position="Co-ordinator" image="Kanishq Sahu.jpg"/>
-         <MemberCard name="Kamran Mehdi" number="56453413345" position="Co-ordinator" image="Kamran.jpg"/>
+          <MemberCard name="Mrinal Maurya" number="" position="Co-ordinator" image="Mrinal Maurya.JPG"/>
+         <MemberCard name="Aryan Singh" number="" position="Co-ordinator" image="Aryan.jpg"/>
+         <MemberCard name="Kanishq Sahu" number="" position="Co-ordinator" image="Kanishq Sahu.jpg"/>
+         <MemberCard name="Kamran Mehdi" number="" position="Co-ordinator" image="Kamran.jpg"/>
                
                 
             
@@ -177,17 +177,17 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
        >
          <div className='mt-10 flex space-y-5 flex-col'>
             <div className='grid grid-cols-2 lg:mx-auto gap-10'>
-            <MemberCard name="Sakshat Chahal" number="56453413345" position="Mentor" image="Sakshat.jpg"/>
-            <MemberCard name="Hardik Rana" number="56453413345" position="Mentor" image="Hardik Rana.jpg"/>
+            <MemberCard name="Sakshat Chahal" number="+91 9416305899" position="Mentor" image="Sakshat.jpg"/>
+            <MemberCard name="Hardik Rana" number="+91 8053686858" position="Mentor" image="Hardik Rana.jpg"/>
             
           </div>
           
           <div className='grid grid-cols-2 mx-auto lg:grid-cols-4 gap-10'>
-          <MemberCard name="Aditya Raj" number="56453413345" position="Representative" image="Aditya.jpg"/>
-          <MemberCard name="Aryan Singh" number="56453413345" position="Co-ordinator" image="Aryan.jpg"/>
-          <MemberCard name="Kartik Tiwari" number="56453413345" position="Co-ordinator" image="Kartik.jpeg"/>
+          <MemberCard name="Aditya Raj" number="+91 8102061991" position="Representative" image="Aditya.jpg"/>
+          <MemberCard name="Aryan Singh" number="" position="Co-ordinator" image="Aryan.jpg"/>
+          <MemberCard name="Kartik Tiwari" number="" position="Co-ordinator" image="Kartik.jpeg"/>
            
-          <MemberCard name="Varun Sharma" number="56453413345" position="Co-ordinator" image="Varun sharma.jpg"/>
+          <MemberCard name="Varun Sharma" number="" position="Co-ordinator" image="Varun sharma.jpg"/>
           
           </div>
           
@@ -218,10 +218,10 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
         </div>
         <div>
           <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
-          IIT Bhilai Exquisite 2.0
+          IIT Bhilai Exquisite 4.0
 
           </h1>
-          <p className='leading-10 text-[#ebecf3]'>2nd position in Exquisite 2.0</p>
+          <p className='leading-10 text-[#ebecf3]'>2nd position in Exquisite 4.0</p>
         </div>
         <div>
           <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
@@ -230,13 +230,7 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
           </h1>
           <p className='leading-10 text-[#ebecf3]'>Third position in general quiz in Zeitgeist</p>
         </div>
-        <div>
-          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
-          IIT Bhilai
-
-          </h1>
-          <p className='leading-10 text-[#ebecf3]'> Exquisite 4.0</p>
-        </div>
+       
       </div>
 </div>
 <footer>
@@ -244,13 +238,13 @@ Brain teasers, logic puzzles, cryptic challenges, riddles and what not! If you h
       <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
         <div className="social-icons mx-auto flex gap-10 justify-center">
          
-          <a href="https://www.instagram.com/your_instagram_page" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/enigma_iitropar/?hl=en" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={20} className='text-black '/>
           </a>
-          <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/enigma-iit-ropar-7a7a78254" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={20} className='text-black '/>
           </a>
-          <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:enigma@iitrpr.ac.in" target="_blank" rel="noopener noreferrer">
             <FaEnvelope size={20} className='text-black '/>
           </a>
         </div>

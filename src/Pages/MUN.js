@@ -143,19 +143,19 @@ export default function MUN() {
       >
           <div className='mt-10 flex space-y-5 flex-col'>
             <div className='grid grid-cols-2 lg:mx-auto gap-10'>
-            <MemberCard name="Ashmit Gupta" number="56453413345" position="Secretary" image="Ashmit_.jpg"/>
+            <MemberCard name="Ashmit Gupta" number="+91 8685062494" position="Secretary" image="Ashmit_.jpg"/>
             
-            <MemberCard name="Anshika Bhatia" number="56453413345" position="Secretary" image="Anshika_.jpg"/>
+            <MemberCard name="Anshika Bhatia" number="+91 8091099185" position="Secretary" image="Anshika_.jpg"/>
             
           </div>
           <div>
           <div className='grid grid-cols-2 mx-auto lg:grid-cols-5 gap-10'>
-          <MemberCard name="Akshat Pathak" number="56453413345" position="Representative" image="Akshat Pathak.jpg"/>
+          <MemberCard name="Akshat Pathak" number="+91 9205829199" position="Representative" image="Akshat Pathak.jpg"/>
                 
-          <MemberCard name="Ananya Sethi" number="56453413345" position="Co-ordinator" image="Ananya Sethi.jpg"/>
-          <MemberCard name="Aryan Daga" number="56453413345" position="Co-ordinator" image="Aryan daga.jpg"/>
-          <MemberCard name="Yash Vij" number="56453413345" position="Co-ordinator" image="Yash vij.jpg"/>    
-          <MemberCard name="Bhavana Ginuga" number="56453413345" position="Co-ordinator" image="Bhavana Ginuga.jpg"/>
+          <MemberCard name="Ananya Sethi" number="" position="Co-ordinator" image="Ananya Sethi.jpg"/>
+          <MemberCard name="Aryan Daga" number="" position="Co-ordinator" image="Aryan daga.jpg"/>
+          <MemberCard name="Yash Vij" number="" position="Co-ordinator" image="Yash vij.jpg"/>    
+          <MemberCard name="Bhavana Ginuga" number="" position="Co-ordinator" image="Bhavana Ginuga.jpg"/>
                
 
                  
@@ -180,17 +180,17 @@ export default function MUN() {
        >
          <div className='mt-10 flex space-y-5 flex-col'>
             <div className='grid grid-cols-2 lg:mx-auto gap-10'>
-            <MemberCard name="Akshat" number="56453413345" position="Mentor" image="Akshat_.jpg"/>
+            <MemberCard name="Akshat" number="+91 8279833510" position="Mentor" image="Akshat_.jpg"/>
             
-            <MemberCard name="Ashmit Gupta" number="56453413345" position="Representative" image="Ashmit_.jpg"/>
+            <MemberCard name="Ashmit Gupta" number="+91 8685062494" position="Representative" image="Ashmit_.jpg"/>
 
           </div>
          
           <div className='grid grid-cols-2 lg:mx-auto gap-10 '>
              
-          <MemberCard name="Abhishek Jaiswal" number="56453413345" position="Co-ordinator" image="Abhishek Jaiswal.jpg"/>
+          <MemberCard name="Abhishek Jaiswal" number="" position="Co-ordinator" image="Abhishek Jaiswal.jpg"/>
           
-          <MemberCard name="Harshit" number="56453413345" position="Co-ordinator" image="Harshit.jpg"/>
+          <MemberCard name="Harshit" number="" position="Co-ordinator" image="Harshit.jpg"/>
           </div>
           
           
@@ -210,6 +210,26 @@ export default function MUN() {
           </h1>
           <p className='leading-10 text-[#ebecf3]'>2 special mentions and 1 honorable mention at CGC MUN-22</p>
         </div>
+        <div>
+          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+          Intra-College MUN 2020
+
+          </h1>
+          <p className='leading-10 text-[#ebecf3]'>Successfully organized Intra-College MUN 2020 with Chief guest - Mr Vivek Atray ( Ex - IAS Officer, TEDex speaker and Indian Author) 
+</p>
+        </div>
+        <div>
+          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+          LitFI MUN 2019
+
+          </h1>
+          <p className='leading-10 text-[#ebecf3]'>Organized LitFI MUN 2019 :
+UNGA-DISEC – DISCUSSION ON THREATS TO INTERNATIONAL PEACE AND SECURITY DUE TO CYBERSPACE</p>
+<p className='leading-10 text-[#ebecf3]'>
+
+AIPPM – DISCUSSION ON THE POSSIBILITIES OF PRIVATIZATION OF INDIAN RAILWAYS AND PUBLIC SECTOR UNDERTAKINGS
+</p>
+        </div>
         
         
         
@@ -220,13 +240,13 @@ export default function MUN() {
       <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
         <div className="social-icons mx-auto flex gap-10 justify-center">
          
-          <a href="https://www.instagram.com/your_instagram_page" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/mun_iitrpr/?hl=en" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={20} className='text-black '/>
           </a>
-          <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/mun-society-iit-ropar/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={20} className='text-black '/>
           </a>
-          <a href="https://www.linkedin.com/your_linkedin_page" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:mun@iitrpr.ac.in" target="_blank" rel="noopener noreferrer">
             <FaEnvelope size={20} className='text-black '/>
           </a>
         </div>

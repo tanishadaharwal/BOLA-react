@@ -83,7 +83,7 @@ for (let i = 1; i <= 10; i ++)
             key={index}
             src={require(`../Debsoc/${image}.png`)}
             alt={`gallery of debsoc ${index + 1}`}
-            className="lg:h-60 lg:w-96 h-36 w-52 rounded-md hover:opacity-60 object-cover hover:scale-95 border-2 border-white cursor-pointer duration-150"
+            className="lg:h-60 lg:w-80 h-36 w-36 rounded-md hover:opacity-60 object-cover hover:scale-95 border-2 border-white cursor-pointer duration-150"
           />
         ));
       case 'Enarrators':
@@ -92,7 +92,7 @@ for (let i = 1; i <= 10; i ++)
             key={index}
             src={require(`../Enarrators/${image}.jpg`)}
             alt={`gallery of enarrators ${index + 1}`}
-            className="lg:h-60 lg:w-96 h-36 w-52 rounded-md hover:opacity-60 object-cover hover:scale-95 border-2 border-white cursor-pointer duration-150"
+            className="lg:h-60 lg:w-80 h-36 w-36 rounded-md hover:opacity-60 object-cover hover:scale-95 border-2 border-white cursor-pointer duration-150"
           />
         ));
       case 'Enigma':
@@ -137,7 +137,7 @@ for (let i = 1; i <= 10; i ++)
   };
 
   return (
-    <div className="pt-20 pb-10 bg-[#111011]">
+    <div className="pt-20  bg-[#111011]">
       <div className="text-center text-white p-4 text-5xl font-bold">Gallery</div>
       <div className="lg:flex justify-center mb-8 space-x-4">
         <button
@@ -207,13 +207,13 @@ for (let i = 1; i <= 10; i ++)
         </button>
         
       </div>
-      <div className='flex'>
-      <Footer />
+      <div className='flex flex-col space-y-10'>
+      
       <div className="mx-auto grid bg-[#111011] lg:grid-cols-4 grid-cols-2 gap-6 px-6 ">
         {renderImages()}
         
       </div>
-      
+      <Footer />
       </div>
       
      

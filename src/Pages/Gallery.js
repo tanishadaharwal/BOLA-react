@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Footer from '../components/Footer';
 export default function Gallery() {
   const [selectedClub, setSelectedClub] = useState('All');
 
@@ -207,9 +207,15 @@ for (let i = 1; i <= 10; i ++)
         </button>
         
       </div>
-      <div className={`mx-auto grid bg-[#111011] lg:grid-cols-4 grid-cols-2 gap-6 px-6 ${selectedClub === 'Enigma' || selectedClub === 'MUN' ? 'h-screen' : ''}`}>
+      <div className='flex'>
+      <Footer />
+      <div className="mx-auto grid bg-[#111011] lg:grid-cols-4 grid-cols-2 gap-6 px-6 ">
         {renderImages()}
+        
       </div>
+      
+      </div>
+      
      
     </div>
   );

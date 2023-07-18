@@ -141,66 +141,66 @@ for (let i = 1; i <= 10; i ++)
       <div className="text-center text-white p-4 text-5xl font-bold">Gallery</div>
       <div className="lg:flex justify-center mb-8 space-x-4">
         <button
-          className={`text-[#0aff9d] lg:ml-0 ml-4 lg:mb-0 mb-2 ${
-            selectedClub === 'All' ? 'bg-[#0aff9d] text-black' : 'bg-gray-600'
-          } hover:bg-[#0aff9d] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
+          className={`text-[#c5eaf4] lg:ml-0 ml-4 lg:mb-0 mb-2 ${
+            selectedClub === 'All' ? 'bg-[#c5eaf4] text-black' : 'bg-gray-600'
+          } hover:bg-[#c5eaf4] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
           onClick={() => handleClubChange('All')}
         >
           All
         </button>
         <button
-          className={`text-[#0aff9d] ${
-            selectedClub === 'Alfaaz' ? 'bg-[#0aff9d] text-black' : 'bg-gray-600'
-          } hover:bg-[#0aff9d] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
+          className={`text-[#c5eaf4] ${
+            selectedClub === 'Alfaaz' ? 'bg-[#c5eaf4] text-black' : 'bg-gray-600'
+          } hover:bg-[#c5eaf4] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
           onClick={() => handleClubChange('Alfaaz')}
         >
           Alfaaz
         </button>
         <button
-          className={`text-[#0aff9d] ${
-            selectedClub === 'Alpha Productions' ? 'bg-[#0aff9d] text-black' : 'bg-gray-600'
-          } hover:bg-[#0aff9d] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
+          className={`text-[#c5eaf4] ${
+            selectedClub === 'Alpha Productions' ? 'bg-[#c5eaf4] text-black' : 'bg-gray-600'
+          } hover:bg-[#c5eaf4] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
           onClick={() => handleClubChange('Alpha Productions')}
         >
           Alpha Productions
         </button>
         <button
-          className={`text-[#0aff9d] mb-2 lg:mb-0 ${
-            selectedClub === 'DebSoc' ? 'bg-[#0aff9d] text-black' : 'bg-gray-600'
-          } hover:bg-[#0aff9d] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
+          className={`text-[#c5eaf4] mb-2 lg:mb-0 ${
+            selectedClub === 'DebSoc' ? 'bg-[#c5eaf4] text-black' : 'bg-gray-600'
+          } hover:bg-[#c5eaf4] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
           onClick={() => handleClubChange('DebSoc')}
         >
           DebSoc
         </button>
         <button
-          className={`text-[#0aff9d] ${
-            selectedClub === 'MUN' ? 'bg-[#0aff9d] text-black' : 'bg-gray-600'
-          } hover:bg-[#0aff9d] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
+          className={`text-[#c5eaf4] ${
+            selectedClub === 'MUN' ? 'bg-[#c5eaf4] text-black' : 'bg-gray-600'
+          } hover:bg-[#c5eaf4] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
           onClick={() => handleClubChange('MUN')}
         >
           MUN
         </button>
         <button
-          className={`text-[#0aff9d] ${
-            selectedClub === 'Enarrators' ? 'bg-[#0aff9d] text-black' : 'bg-gray-600'
-          } hover:bg-[#0aff9d] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
+          className={`text-[#c5eaf4] ${
+            selectedClub === 'Enarrators' ? 'bg-[#c5eaf4] text-black' : 'bg-gray-600'
+          } hover:bg-[#c5eaf4] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
           onClick={() => handleClubChange('Enarrators')}
         >
           Enarrators
         </button>
 
         <button
-          className={`text-[#0aff9d] ${
-            selectedClub === 'Enigma' ? 'bg-[#0aff9d] text-black' : 'bg-gray-600'
-          } hover:bg-[#0aff9d] transition hover:text-black duration-300 ease-in-out rounded-full py-2 px-4`}
+          className={`text-[#c5eaf4] ${
+            selectedClub === 'Enigma' ? 'bg-[#c5eaf4] text-black' : 'bg-gray-600'
+          } hover:bg-[#c5eaf4] transition hover:text-black duration-300 ease-in-out rounded-full py-2 px-4`}
           onClick={() => handleClubChange('Enigma')}
         >
           Enigma
         </button>
         <button
-          className={`text-[#0aff9d] ${
-            selectedClub === 'Filmski' ? 'bg-[#0aff9d] text-black' : 'bg-gray-600'
-          } hover:bg-[#0aff9d] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
+          className={`text-[#c5eaf4] ${
+            selectedClub === 'Filmski' ? 'bg-[#c5eaf4] text-black' : 'bg-gray-600'
+          } hover:bg-[#c5eaf4] hover:text-black transition duration-300 ease-in-out rounded-full py-2 px-4`}
           onClick={() => handleClubChange('Filmski')}
         >
           Filmski

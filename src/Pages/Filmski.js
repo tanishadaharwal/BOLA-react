@@ -4,6 +4,7 @@ import Carousel from 'react-multi-carousel';
 import Reveal from '../components/Reveal';
 import { useState } from "react";
 import MemberCard from '../components/MemberCard';
+import bg from "../ClubLogos/bg3.jpg"
 import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 export default function Filmski() {
@@ -13,8 +14,12 @@ export default function Filmski() {
     setSelectedYear(year);
   };
   return (
-    <div className='pt-20 bg-[#111011] '>
-      <div className='flex justify-center space-x-4'>
+    <div className='relative min-h-screen text-black '>
+       <div className="absolute inset-0 overflow-hidden">
+      <img src={bg} className="object-cover w-full h-full fixed opacity-[80%]" alt="background"></img>
+      <div className="bg-black opacity-70 absolute inset-0"></div>
+      </div>
+      <div className='relative pt-20 z-50 flex justify-center space-x-4'>
       <div className='text-center text-[#ebecf3] p-1  text-5xl font-bold'>
       Filmski
     </div>
@@ -114,20 +119,20 @@ export default function Filmski() {
 
 
 
-    <div className='ml:mx-36 mx-5 '>
+    <div className='relative ml:mx-36 mx-5 z-50'>
       <div>
         <h1 className='text-5xl mt-10 text-center text-[#ebecf3] font-bold mb-6'>Core Team</h1>
       </div>
 
       <div className='flex justify-center gap-1 '>
       <button
-          className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-s-md ${selectedYear === '2023-2024' ? 'bg-gray-400' : 'bg-white'}`}
+          className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-s-md ${selectedYear === '2023-2024' ? 'bg-[#c5eaf4]' : 'bg-white'}`}
           onClick={() => handleYearChange('2023-2024')}
         >
           2023-2024
         </button>
         <button
-          className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-e-md ${selectedYear === '2022-2023' ? 'bg-gray-400' : 'bg-white'}`}
+          className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-e-md ${selectedYear === '2022-2023' ? 'bg-[#c5eaf4]' : 'bg-white'}`}
           onClick={() => handleYearChange('2022-2023')}
         >
           2022-2023
@@ -149,19 +154,18 @@ export default function Filmski() {
             <MemberCard name="Priyanshu Gupta" number="+91 8690912273" position="Representative" image="Priyanshu Gupta.jpg"/>
 
           </div>
-          <div>
-          <div className='grid grid-cols-2 lg:grid-cols-5 gap-10'>
+          
+          <div className='grid grid-cols-2 lg:grid-cols-4 mx-auto gap-10'>
           
           <MemberCard name="Bhargav Naidu" number="" position="Co-ordinator" image="Bhargav.jpg"/>
-          <MemberCard name="Vikram Sharma" number="" position="Co-ordinator" image="Vikram.jpg"/>
-          <MemberCard name="Ankur Kumar" number="" position="Co-ordinator" image="AnkurKumar.jpg"/>    
+           <MemberCard name="Ankur Kumar" number="" position="Co-ordinator" image="AnkurKumar.jpg"/>    
           <MemberCard name="Hemang Tailor" number="" position="Co-ordinator" image="Hemang Tailor.jpg"/>
           <MemberCard name="Priyanshu Singh" number="" position="Co-ordinator" image="Priyanshu Singh.jpg"/>    
         
             
 
 
-          </div>
+          
           </div>
           
         </div>
@@ -212,18 +216,18 @@ export default function Filmski() {
 
 
 <footer>
-      <div className="footer-container p-2 mt-10  bg-gray-400 text-black">
+      <div className="footer-container mt-20 p-2 relative z-50 text-white">
       <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
         <div className="social-icons mx-auto flex gap-10 justify-center">
          
           <a href="https://www.instagram.com/filmski_iitropar/" target="_blank" rel="noopener noreferrer">
-            <FaInstagram size={20} className='text-black '/>
+            <FaInstagram size={20} className='text-white hover:text-[#c5eaf4]'/>
           </a>
           <a href="https://www.linkedin.com/company/filmski-club-iit-ropar/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin size={20} className='text-black '/>
+            <FaLinkedin size={20} className='text-white hover:text-[#c5eaf4]'/>
           </a>
           <a href="mailto:movie.club@iitrpr.ac.in" target="_blank" rel="noopener noreferrer">
-            <FaEnvelope size={20} className='text-black '/>
+            <FaEnvelope size={20} className='text-white hover:text-[#c5eaf4]'/>
           </a>
         </div>
       </div>

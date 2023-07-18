@@ -6,6 +6,7 @@ import { useState } from "react";
 import { motion } from 'framer-motion';
 import MemberCard from '../components/MemberCard';
 import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import bg from "../ClubLogos/bg3.jpg"
 export default function Alfaaz() {
   const [selectedYear, setSelectedYear] = useState('2023-2024');
 
@@ -13,20 +14,25 @@ export default function Alfaaz() {
     setSelectedYear(year);
   };
   return (
-    <div className='pt-20 bg-[#111011] '>
-      <div className='flex justify-center space-x-4'>
-        <div className='text-center text-[#ebecf3] p-1  text-5xl font-bold'>
+    <div className="relative min-h-screen text-black ">
+      <div className="absolute inset-0 overflow-hidden">
+      <img src={bg} className="object-cover w-full h-full fixed opacity-[80%]" alt="background"></img>
+      <div className="bg-black opacity-70 absolute inset-0"></div>
+      </div>
+      
+      <div className='relative pt-20 z-50 flex justify-center space-x-4'>
+        <div className='text-center text-white p-1  text-5xl font-bold'>
           Alfaaz
         </div>
         <div><img loading="lazy" className='h-16 w-16  rounded-full p-2' alt="club-log" src={AlfaazLogo}></img></div>
       </div>
 
-      <div className='lg:flex space-x-5 '>
+      <div className='lg:flex space-x-5 relative z-50'>
         <div className='lg:flex lg:flex-col  lg:w-full space-y-4'>
           <Reveal>
             <div className='lg:ml-20 mx-5'>
-              <h1 className='text-4xl mt-10 text-[#ebecf3] font-bold mb-6'>About✨</h1>
-              <p className='font-medium text-[#ebecf3] leading-10'>Alfaaz, the Poetry Club of IIT Ropar is a family of like-minded people when it comes to showing our love for reading and creative writing, and yet, who are also able to maintain their individualities apart by expressing the same thing through a ton of interesting perspectives. Got a penchant or even a slight inclination towards creative expression? Then Alfaaz is the club for you! We wholeheartedly welcome you to become a part of our family to learn and grow together in the art of words, transcending the boundaries of language and form.
+              <h1 className='text-4xl mt-10 text-white font-bold mb-6'>About✨</h1>
+              <p className='font-medium z-50 text-white leading-10'>Alfaaz, the Poetry Club of IIT Ropar is a family of like-minded people when it comes to showing our love for reading and creative writing, and yet, who are also able to maintain their individualities apart by expressing the same thing through a ton of interesting perspectives. Got a penchant or even a slight inclination towards creative expression? Then Alfaaz is the club for you! We wholeheartedly welcome you to become a part of our family to learn and grow together in the art of words, transcending the boundaries of language and form.
               </p>
             </div>
           </Reveal>
@@ -108,26 +114,26 @@ export default function Alfaaz() {
 
 
         </Carousel></div>
-      <hr className=" border-2  mx-5 border-gray-300 mt-10" />
+      <hr className=" border-2 z-50 mx-5 border-gray-300 mt-10" />
 
 
 
 
 
-      <div className='ml:mx-36 mx-5 '>
+      <div className='relative ml:mx-36 mx-5 z-50'>
         <div>
           <h1 className='text-5xl mt-10 text-center text-[#ebecf3] font-bold mb-6'>Core Team</h1>
         </div>
 
         <div className='flex justify-center gap-1 '>
           <button
-            className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-s-md ${selectedYear === '2023-2024' ? 'bg-gray-400' : 'bg-white'}`}
+            className={` text-black px-4 text-2xl font-bold  rounded-s-md ${selectedYear === '2023-2024' ? 'bg-[#c5eaf4]' : 'bg-white'}`}
             onClick={() => handleYearChange('2023-2024')}
           >
             2023-2024
           </button>
           <button
-            className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-e-md ${selectedYear === '2022-2023' ? 'bg-gray-400' : 'bg-white'}`}
+            className={` text-black px-4 text-2xl font-bold rounded-e-md ${selectedYear === '2022-2023' ? 'bg-[#c5eaf4]' : 'bg-white'}`}
             onClick={() => handleYearChange('2022-2023')}
           >
             2022-2023
@@ -150,15 +156,13 @@ export default function Alfaaz() {
 
 
               </div>
-              <div>
-                <div className='grid grid-cols-2 lg:grid-cols-4 gap-10'>
+             
+                <div className='grid grid-cols-2 lg:grid-cols-3 mx-auto gap-10'>
 
                   <MemberCard name="Hitesh Patange" number="" position="Co-ordinator" image="Hitesh.jpg" />
                   <MemberCard name="Abhishek Abhi" number="" position="Co-ordinator" image="Abhishek Kumar .jpg" />
                   <MemberCard name="Amitoj Singh" number="" position="Co-ordinator" image="Amitoj.jpg" />
-                  <MemberCard name="Sunny Bharti" number="" position="Co-ordinator" image="Sunny.jpg" />
-
-
+                  
 
 
 
@@ -167,7 +171,7 @@ export default function Alfaaz() {
 
 
                 </div>
-              </div>
+        
 
             </div>
           </motion.div>
@@ -205,11 +209,11 @@ export default function Alfaaz() {
       </div>
 
       <hr className=" border-2 mx-5 border-gray-300 mt-8" />
-      <div className='lg:mx-36 mx-5'>
-        <h1 className='text-4xl mt-10 font-bold mb-6 text-[#ebecf3]'>Achievements🏆</h1>
+      <div className='relative z-10 lg:mx-36 mx-5'>
+        <h1 className='text-4xl mt-10 font-bold mb-6 text-[#c5eaf4]'>Achievements🏆</h1>
         <div className='gird gird-cols-1 pb-10 '>
           <div>
-            <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+            <h1 className='text-2xl mt-5 font-bold mb-3 text-white'>
               Aaveg, IIT Bhubaneswar
 
             </h1>
@@ -217,7 +221,7 @@ export default function Alfaaz() {
             </p>
           </div>
           <div>
-            <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+            <h1 className='text-2xl mt-5 font-bold mb-3 text-white'>
               Inter IIT Cult-cum- Lit- Meet
 
 
@@ -226,7 +230,7 @@ export default function Alfaaz() {
             </p>
           </div>
           <div>
-            <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+            <h1 className='text-2xl mt-5 font-bold mb-3 text-white'>
               Hindi Cell Poetry Event:
 
             </h1>
@@ -234,7 +238,7 @@ export default function Alfaaz() {
             </p>
           </div>
           <div>
-            <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+            <h1 className='text-2xl mt-5 font-bold mb-3 text-white'>
               Aavritti : Kavi Sammelan by the greatest contemporary poets
 
             </h1>
@@ -244,19 +248,19 @@ export default function Alfaaz() {
           </div>
         </div>
       </div>
-      <footer>
-        <div className="footer-container p-2 bg-gray-400 text-black">
+      <footer className='relative z-10'>
+        <div className="footer-container p-2 bg-gray-40 text-white">
           <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
           <div className="social-icons mx-auto flex gap-10 justify-center">
 
             <a href="https://www.instagram.com/alfaaz_iitrpr/?hl=en" target="_blank" rel="noopener noreferrer">
-              <FaInstagram size={20} className='text-black ' />
+              <FaInstagram size={20} className='text-bl text-white hover:text-[#c5eaf4] ' />
             </a>
             <a href="https://www.linkedin.com/in/alfaaz-poetry-club/" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin size={20} className='text-black ' />
+              <FaLinkedin size={20} className='text-bl text-white hover:text-[#c5eaf4] ' />
             </a>
             <a href="mailto:alfaaz@iitrpr.ac.in" target="_blank" rel="noopener noreferrer">
-              <FaEnvelope size={20} className='text-black ' />
+              <FaEnvelope size={20} className='text-bl text-white hover:text-[#c5eaf4] ' />
             </a>
           </div>
         </div>

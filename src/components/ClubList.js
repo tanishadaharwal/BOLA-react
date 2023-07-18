@@ -9,11 +9,11 @@ import Reveal from './Reveal';
 export default function ClubList() {
   return (
    
-    <div name="clubs" className='lg:px-36 pt-36 px-5  '>
+    <div name="clubs" className='lg:px-48 pt-36 px-5  '>
       <Reveal>
-      <h1 className='text-4xl px-4 text-left lg:text-center text-[#0cf790] font-bold mb-6'>Clubs under BOLA</h1>
+      <h1 className='text-4xl px-4 text-left lg:text-center text-[#c5eaf4] font-bold mb-6'>Clubs under BOLA</h1>
     <hr className="w-full border-2 border-gray-300 mt-8" />
-    <p className='mt-8 px-4 font-semibold text-white  lg:text-center leading-10 mb-5 '>Under the auspices of the Board of Literary Affairs, we are proud to present seven distinct clubs that encompass a wide range of literary pursuits. These clubs offer a unique platform for students to engage in various forms of expression, explore their creativity, and hone their literary skills.
+    <p className='mt-8 px-4 font-semibold text-lg text-white  text-justify leading-10 mb-5 '>Under the auspices of the Board of Literary Affairs, we are proud to present seven distinct clubs that encompass a wide range of literary pursuits. These clubs offer a unique platform for students to engage in various forms of expression, explore their creativity, and hone their literary skills.
 </p>
       
     

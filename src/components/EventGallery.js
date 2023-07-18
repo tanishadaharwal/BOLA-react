@@ -17,7 +17,7 @@ export default function EventGallery() {
      
      
       <div className='flex pl-2 sm:pl-0 justify-center mt-6'>
-      <Link to="/event-gallery" className='p-2 bg-white text-center rounded-xl z-50 text-black font-bold text-xl  hover:scale-105 hover:bg-[#0cf790]'>View All</Link></div> 
+      <Link to="/event-gallery" className='p-2 bg-white text-center rounded-xl z-50 text-black font-bold text-xl  hover:scale-105 hover:bg-[#c5eaf4]'>View All</Link></div> 
     </div>
     </Reveal>
   );

@@ -39,7 +39,7 @@ const NavBar = () => {
       </div>
 
       <div className="hidden md:flex">
-        <div className="flex gap-2 px-4 cursor-pointer  capitalize font-medium hover:text-[#0aff9d] hover:font-semibold duration-200" >
+        <div className="flex gap-2 px-4 cursor-pointer  capitalize font-medium hover:text-[#c5eaf4] hover:font-semibold duration-200" >
     
          <FaHome className="" size={20}/>
          <div>
@@ -49,7 +49,7 @@ const NavBar = () => {
         
         </div>
 
-        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#0aff9d]  duration-200" 
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#c5eaf4]  duration-200" 
          onMouseEnter={handleClubHover}
          onMouseLeave={handleClubLeave}>
     
@@ -57,7 +57,7 @@ const NavBar = () => {
          
          <Link to="" smooth duration={500}>Clubs</Link>
          {showClubs && (
-            <div className="absolute w-36 border-t-4  hover:text-[#0aff9d] items-center bg-zinc-800 rounded-md shadow-md mt-6 -ml-4 p-2">
+            <div className="absolute w-36 border-t-4  hover:text-[#c5eaf4] items-center bg-zinc-800 rounded-md shadow-md mt-6 -ml-4 p-2">
               <ul>
                 <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Alfaaz">Alfaaz</Link></li>
                 <li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold hover:rounded-md"><Link to="/clubs/Alpha">Alpha Productions</Link></li>
@@ -71,21 +71,21 @@ const NavBar = () => {
             </div>
           )}
         </div>
-        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#0aff9d]  duration-200" >
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#c5eaf4]  duration-200" >
     
         <FaList size={20}/>
          <Link to="https://docs.google.com/document/d/1wCkjDxrwtr7Rb8CUqH7OOtMMsEJt66viU-CDxXoCeDY/edit" target="_blank" rel="noopener noreferrer" smooth duration={500}>Calender</Link>
          
         </div>
 
-        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#0aff9d]  duration-200" >
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#c5eaf4]  duration-200" >
     
     <FaPager size={20} />
      <Link to="https://docs.google.com/document/d/1b1qrIUwwkIpnUd7-Mv1PQrxiykLYUVikpgwT5k3_BWE/edit?usp=sharing" target="_blank" rel="noopener noreferrer" smooth duration={500}>Constitution</Link>
      
     </div>
 
-        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#0aff9d]  duration-200" 
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#c5eaf4]  duration-200" 
         onMouseEnter={handleLinkHover}
         onMouseLeave={handleLinkLeave}>
     
@@ -103,7 +103,7 @@ const NavBar = () => {
           )}
         </div>
 
-        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#0aff9d] duration-200" >
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#c5eaf4] duration-200" >
     
          <FaIdCard className="" size={20}/>
          <LinkRoll to="aboutUs" smooth duration={500}>About</LinkRoll>

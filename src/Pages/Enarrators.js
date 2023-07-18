@@ -5,6 +5,7 @@ import Reveal from '../components/Reveal';
 import { useState } from "react";
 import { motion } from 'framer-motion';
 import MemberCard from '../components/MemberCard';
+import bg from "../ClubLogos/bg3.jpg"
 import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
 export default function Ennarators() {
   const [selectedYear, setSelectedYear] = useState('2023-2024');
@@ -13,8 +14,12 @@ export default function Ennarators() {
     setSelectedYear(year);
   };
   return (
-    <div className='pt-20 bg-[#111011] '>
-      <div className='flex justify-center space-x-4'>
+    <div className='relative min-h-screen text-black'>
+       <div className="absolute inset-0 overflow-hidden">
+      <img src={bg} className="object-cover w-full h-full fixed opacity-[80%]" alt="background"></img>
+      <div className="bg-black opacity-70 absolute inset-0"></div>
+      </div>
+      <div className='relative pt-20 z-50 flex justify-center space-x-4'>
       <div className='text-center text-[#ebecf3] p-1  text-5xl font-bold'>
       Enarrators
     </div>
@@ -116,20 +121,20 @@ The oratory club provides a supportive environment that helps you master the art
 
 
 
-    <div className='ml:mx-36 mx-5 '>
+    <div className='relative ml:mx-36 mx-5 z-50'>
       <div>
         <h1 className='text-5xl mt-10 text-center text-[#ebecf3] font-bold mb-6'>Core Team</h1>
       </div>
 
       <div className='flex justify-center gap-1 '>
       <button
-          className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-s-md ${selectedYear === '2023-2024' ? 'bg-gray-400' : 'bg-white'}`}
+          className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-s-md ${selectedYear === '2023-2024' ? 'bg-[#c5eaf4]' : 'bg-white'}`}
           onClick={() => handleYearChange('2023-2024')}
         >
           2023-2024
         </button>
         <button
-          className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-e-md ${selectedYear === '2022-2023' ? 'bg-gray-400' : 'bg-white'}`}
+          className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-e-md ${selectedYear === '2022-2023' ? 'bg-[#c5eaf4]' : 'bg-white'}`}
           onClick={() => handleYearChange('2022-2023')}
         >
           2022-2023
@@ -150,8 +155,8 @@ The oratory club provides a supportive environment that helps you master the art
             <MemberCard name="Kanishq Sahu" number="+91 9009730530" position="Representative" image="Kanishq Sahu.jpg"/>
 
           </div>
-          <div>
-          <div className='grid grid-cols-2 lg:grid-cols-4 gap-10'>
+         
+          <div className='grid grid-cols-2 lg:grid-cols-4 mx-auto gap-10'>
           <MemberCard name="Kashish Yadav" number="+91 77378 26754" position="Co-ordinator" image="Kashish.jpg"/>
          
           <MemberCard name="Kultaj Singh" number="+91 75280 61907" position="Co-ordinator" image="Kultaj Singh.jpg"/>
@@ -168,7 +173,7 @@ The oratory club provides a supportive environment that helps you master the art
                 
             
 
-          </div>
+          
           </div>
           
         </div>
@@ -203,11 +208,11 @@ The oratory club provides a supportive environment that helps you master the art
     </div>
 
 <hr className=" border-2 mx-5 border-gray-300 mt-8" />
-<div className='lg:mx-36 mx-5'>
+<div className='lg:mx-36 mx-5 relative z-50'>
   <h1 className='text-4xl mt-10 font-bold mb-6 text-[#ebecf3]'>Achievements🏆</h1>
       <div className='gird gird-cols-1 pb-10 '>
       <div>
-          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+          <h1 className='text-2xl mt-5 font-bold mb-3 text-white'>
           Bidvertise
 
 
@@ -220,7 +225,7 @@ The oratory club provides a supportive environment that helps you master the art
 </p>
         </div>
         <div>
-          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+          <h1 className='text-2xl mt-5 font-bold mb-3 text-white'>
           Literary event under Azadi ka Amrit Mahotsav 2.0.
 
 
@@ -231,7 +236,7 @@ The oratory club provides a supportive environment that helps you master the art
 </p>
         </div>
         <div>
-          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+          <h1 className='text-2xl mt-5 font-bold mb-3 text-white'>
           Declamation contest on tribal day 
 
 
@@ -243,18 +248,18 @@ The oratory club provides a supportive environment that helps you master the art
       </div>
 </div>
 <footer>
-      <div className="footer-container p-2 bg-gray-400 text-black">
+      <div className="footer-container p-2 relative z-50 text-white">
       <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
         <div className="social-icons mx-auto flex gap-10 justify-center">
          
           <a href="https://www.instagram.com/oratory_iitropar/?hl=en" target="_blank" rel="noopener noreferrer">
-            <FaInstagram size={20} className='text-black '/>
+            <FaInstagram size={20} className='text-white hover:text-[#c5eaf4]'/>
           </a>
-          <a href="https://www.linkedin.com/in/oratory-club-730751271/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin size={20} className='text-black '/>
+          <a href="https://www.linkedin.com/company/the-oratory-club-iit-ropar/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={20} className='text-white hover:text-[#c5eaf4]'/>
           </a>
           <a href="mailto:enarrators@iitrpr.ac.in" target="_blank" rel="noopener noreferrer">
-            <FaEnvelope size={20} className='text-black '/>
+            <FaEnvelope size={20} className='text-white hover:text-[#c5eaf4]'/>
           </a>
         </div>
       </div>

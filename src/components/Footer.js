@@ -3,7 +3,7 @@ import { FaEnvelope, FaInstagram, FaMapMarkedAlt, FaPhone, FaArrowRight } from '
 import Logo from "../ClubLogos/BOLA-1.png";
 const Footer = () => {
   return (
-    <footer className="bg-gray-400 w-full">
+    <footer className="relative z-10 bg-gray-400 w-full">
       
       <div className="container mx-auto lg:px-36 px-5  py-8">
         <div className="lg:flex justify-evenly">
@@ -201,7 +201,7 @@ const Footer = () => {
           <h1 className='lg:text-sm text-xs'>Copyrights © 2022-23 Student Affairs IIT Ropar</h1>
           </div>
           <div className='lg:py-0 py-2 lg:mx-0 mx-14'>
-          <h1 className='lg:text-sm text-xs'>Website Developed by<span className='text-[#40d695]'> Web Development Team</span></h1>
+          <h1 className='lg:text-sm text-xs'>Website Developed by<span className='text-[#c5eaf4]'> Web Development Team</span></h1>
           
           </div>
          

@@ -91,7 +91,7 @@ export default function SimpleSlider() {
       
       </Carousel>
      
-      <div className="flex my-3 lg:ml-[43%] ml-6 gap-5 text-white">
+      <div className="relative z-10 flex my-3 lg:ml-[43%] ml-6 gap-5 text-white">
         <div className=" ">
           <img loading="lazy"  className="h-14 w-14 my-2 rounded-full" src={BOLA} alt="Logo" />
         </div>

@@ -5,6 +5,7 @@ import Reveal from '../components/Reveal';
 import { useState } from "react";
 import { motion } from 'framer-motion';
 import MemberCard from '../components/MemberCard';
+import bg from "../ClubLogos/bg3.jpg"
 import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
 export default function MUN() {
   const [selectedYear, setSelectedYear] = useState('2023-2024');
@@ -13,12 +14,16 @@ export default function MUN() {
     setSelectedYear(year);
   };
   return (
-    <div className='pt-20 bg-[#111011] '>
-      <div className='flex justify-center space-x-4'>
-      <div className='text-center text-[#ebecf3] p-1  text-5xl font-bold'>
+    <div className='relative min-h-screen text-black '>
+       <div className="absolute inset-0 overflow-hidden">
+      <img src={bg} className="object-cover w-full h-full fixed opacity-[80%]" alt="background"></img>
+      <div className="bg-black opacity-70 absolute inset-0"></div>
+      </div>
+      <div className='relative pt-20 z-50 flex justify-center space-x-4'>
+      <div className='text-center text-[#ebecf3] lg:p-1  p-2 text-2xl lg:text-5xl font-bold'>
       Model United Nations
     </div>
-    <div><img loading="lazy"  className='h-16 w-16  rounded-full p-2' alt="club-log" src={MUNLogo}></img></div>
+    <div><img loading="lazy"  className='lg:h-16 lg:w-16 h-12 w-12 rounded-full p-2' alt="club-log" src={MUNLogo}></img></div>
       </div>
     
     <div className='lg:flex space-x-5 '>
@@ -113,20 +118,20 @@ export default function MUN() {
 
 
 
-    <div className='ml:mx-36 mx-5 '>
+    <div className='relative ml:mx-36 mx-5 z-50'>
       <div>
         <h1 className='text-5xl mt-10 text-center text-[#ebecf3] font-bold mb-6'>Core Team</h1>
       </div>
 
       <div className='flex justify-center gap-1 '>
       <button
-          className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-s-md ${selectedYear === '2023-2024' ? 'bg-gray-400' : 'bg-white'}`}
+          className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-s-md ${selectedYear === '2023-2024' ? 'bg-[#c5eaf4]' : 'bg-white'}`}
           onClick={() => handleYearChange('2023-2024')}
         >
           2023-2024
         </button>
         <button
-          className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-e-md ${selectedYear === '2022-2023' ? 'bg-gray-400' : 'bg-white'}`}
+          className={` text-black px-4 text-2xl font-bold hover:scale-105 rounded-e-md ${selectedYear === '2022-2023' ? 'bg-[#c5eaf4]' : 'bg-white'}`}
           onClick={() => handleYearChange('2022-2023')}
         >
           2022-2023
@@ -141,7 +146,7 @@ export default function MUN() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-          <div className='mt-10 flex space-y-5 flex-col'>
+          <div className='mt-10 flex space-y-5 px-1 lg:px-20  flex-col'>
             <div className='grid grid-cols-2 lg:mx-auto gap-10'>
             <MemberCard name="Ashmit Gupta" number="+91 8685062494" position="Secretary" image="Ashmit_.jpg"/>
             
@@ -149,7 +154,7 @@ export default function MUN() {
             
           </div>
           <div>
-          <div className='grid grid-cols-2 mx-auto lg:grid-cols-5 gap-10'>
+          <div className='grid grid-cols-2  lg:grid-cols-5 gap-10'>
           <MemberCard name="Akshat Pathak" number="+91 9205829199" position="Representative" image="Akshat Pathak.jpg"/>
                 
           <MemberCard name="Ananya Sethi" number="" position="Co-ordinator" image="Ananya Sethi.jpg"/>
@@ -200,18 +205,18 @@ export default function MUN() {
     </div>
 
 <hr className=" border-2 mx-5 border-gray-300 mt-8" />
-<div className='lg:mx-36 mx-5'>
+<div className='lg:mx-36 mx-5 relative z-50'>
   <h1 className='text-4xl mt-10 font-bold mb-6 text-[#ebecf3]'>Achievements🏆</h1>
       <div className='gird gird-cols-1 pb-10 '>
         <div>
-          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+          <h1 className='text-2xl mt-5 font-bold mb-3 text-white'>
           CGC MUN-22
 
           </h1>
           <p className='leading-10 text-[#ebecf3]'>2 special mentions and 1 honorable mention at CGC MUN-22</p>
         </div>
         <div>
-          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+          <h1 className='text-2xl mt-5 font-bold mb-3 text-white'>
           Intra-College MUN 2020
 
           </h1>
@@ -219,7 +224,7 @@ export default function MUN() {
 </p>
         </div>
         <div>
-          <h1 className='text-2xl mt-5 font-bold mb-3 text-[#0cf790]'>
+          <h1 className='text-2xl mt-5 font-bold mb-3 text-white'>
           LitFI MUN 2019
 
           </h1>
@@ -236,18 +241,18 @@ AIPPM – DISCUSSION ON THE POSSIBILITIES OF PRIVATIZATION OF INDIAN RAILWAYS AN
       </div>
 </div>
 <footer>
-      <div className="footer-container p-2 bg-gray-400 text-black">
+      <div className="footer-container p-2 relative z-50 text-white">
       <h1 className='text-xl font-bold text-center my-auto'>Contact Us</h1>
         <div className="social-icons mx-auto flex gap-10 justify-center">
          
           <a href="https://www.instagram.com/mun_iitrpr/?hl=en" target="_blank" rel="noopener noreferrer">
-            <FaInstagram size={20} className='text-black '/>
+            <FaInstagram size={20} className='text-white hover:text-[#c5eaf4]'/>
           </a>
           <a href="https://www.linkedin.com/company/mun-society-iit-ropar/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin size={20} className='text-black '/>
+            <FaLinkedin size={20} className='text-white hover:text-[#c5eaf4]'/>
           </a>
           <a href="mailto:mun@iitrpr.ac.in" target="_blank" rel="noopener noreferrer">
-            <FaEnvelope size={20} className='text-black '/>
+            <FaEnvelope size={20} className='text-white hover:text-[#c5eaf4]'/>
           </a>
         </div>
       </div>

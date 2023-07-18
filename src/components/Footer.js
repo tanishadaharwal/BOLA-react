@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaInstagram, FaMapMarkedAlt, FaPhone, FaArrowRight, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaMapMarkedAlt, FaPhone, FaArrowRight} from 'react-icons/fa';
 import Logo from "../ClubLogos/BOLA-1.png";
 const Footer = () => {
   return (

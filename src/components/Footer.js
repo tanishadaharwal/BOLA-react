@@ -58,9 +58,9 @@ const Footer = () => {
          
           
 
-<div className="lg:mx-0 mx-20 lg:px-32 lg:pt-0 pt-4">
+<div className="lg:mx-0 mx-4 lg:px-32 lg:pt-0 pt-4">
             <h3 className="text-lg font-bold mb-2">Quick Links</h3>
-            <div className="flex flex-col w-40  gap-2">
+            <div className="flex flex-col  w-40  gap-2">
   <a
     href="https://www.iitrpr.ac.in/"
     className="text-gray-600  pr-4 hover:text-black transition duration-300 ease-in-out"
@@ -118,7 +118,7 @@ const Footer = () => {
   </a>
 </div>
           </div>
-          <div className="lg:mx-0 mx-20 lg:pt-0 pt-4">
+          <div className="lg:mx-0 mx-4 lg:pt-0 pt-4">
             <h3 className="text-lg font-bold mb-2">Social Media Handles</h3>
             <div className="flex flex-col w-52 gap-2">
   <a
@@ -200,11 +200,10 @@ const Footer = () => {
           <div className='lg:py-0 py-4 lg:mx-0 mx-12'>
           <h1 className='lg:text-sm text-xs'>Copyrights © 2022-23 Student Affairs IIT Ropar</h1>
           </div>
-          <div className='lg:py-0 py-2 lg:mx-0 mx-14 flex space-x-5'>
+          <div className='lg:py-0 py-2 lg:mx-0 mx-14 flex justify-center space-x-5'>
           <h1 className='lg:text-sm text-xs'>Website Developed by</h1>
-          <h1 className='text-[#c5eaf4] lg:text-sm text-xs'>Tanisha Daharwal </h1>
-          <a href="https://www.linkedin.com/in/tanisha-daharwal-4b2394226/" target="blank" className='lg:text-sm text-xs hover:text-[#c5eaf4]'><FaLinkedin size={20}/></a>
-          </div>
+          <h1 className='text-[#c5eaf4] lg:text-sm text-xs'>Website development team </h1>
+         </div>
          
         </div>
       </div>

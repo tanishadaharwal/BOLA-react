@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaInstagram, FaMapMarkedAlt, FaPhone, FaArrowRight } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaMapMarkedAlt, FaPhone, FaArrowRight, FaLinkedin } from 'react-icons/fa';
 import Logo from "../ClubLogos/BOLA-1.png";
 const Footer = () => {
   return (
@@ -200,9 +200,10 @@ const Footer = () => {
           <div className='lg:py-0 py-4 lg:mx-0 mx-12'>
           <h1 className='lg:text-sm text-xs'>Copyrights © 2022-23 Student Affairs IIT Ropar</h1>
           </div>
-          <div className='lg:py-0 py-2 lg:mx-0 mx-14'>
-          <h1 className='lg:text-sm text-xs'>Website Developed by<span className='text-[#c5eaf4]'> Web Development Team</span></h1>
-          
+          <div className='lg:py-0 py-2 lg:mx-0 mx-14 flex space-x-5'>
+          <h1 className='lg:text-sm text-xs'>Website Developed by</h1>
+          <h1 className='text-[#c5eaf4] lg:text-sm text-xs'>Tanisha Daharwal </h1>
+          <a href="https://www.linkedin.com/in/tanisha-daharwal-4b2394226/" target="blank" className='lg:text-sm text-xs hover:text-[#c5eaf4]'><FaLinkedin size={20}/></a>
           </div>
          
         </div>

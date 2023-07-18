@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Footer from '../components/Footer';
+import bg from "../ClubLogos/bg3.jpg"
 export default function Gallery() {
   const [selectedClub, setSelectedClub] = useState('All');
 
@@ -137,9 +138,13 @@ for (let i = 1; i <= 10; i ++)
   };
 
   return (
-    <div className="pt-20  bg-[#111011]">
-      <div className="text-center text-white p-4 text-5xl font-bold">Gallery</div>
-      <div className="lg:flex justify-center mb-8 space-x-4">
+    <div className="relative min-h-screen text-black">
+      <div className="absolute inset-0 overflow-hidden">
+      <img src={bg} className="object-cover w-full h-full fixed opacity-[80%]" alt="background"></img>
+      <div className="bg-black opacity-70 absolute inset-0"></div>
+      </div>
+      <div className="relative z-50 text-center pt-20 text-white p-4 text-5xl font-bold">Gallery</div>
+      <div className="relative z-50 lg:flex justify-center mb-8 space-x-4">
         <button
           className={`lg:ml-0 ml-4 lg:mb-0 mb-2 ${
             selectedClub === 'All' ? 'bg-[#c5eaf4] text-black' : 'bg-gray-600 text-[#c5eaf4]'
@@ -207,13 +212,13 @@ for (let i = 1; i <= 10; i ++)
         </button>
         
       </div>
-      <div className='flex flex-col space-y-10'>
+      <div className='flex relative z-50 flex-col space-y-10'>
       
-      <div className="mx-auto grid bg-[#111011] lg:grid-cols-4 grid-cols-2 gap-6 px-6 ">
+      <div className="mx-auto grid lg:grid-cols-4 grid-cols-2 gap-6 px-6 ">
         {renderImages()}
         
       </div>
-      <Footer />
+      <Footer className="relative z-50" />
       </div>
       
      

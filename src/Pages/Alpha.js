@@ -246,6 +246,9 @@ export default function Alpha() {
             <a href="mailto:alfaaz@iitrpr.ac.in" target="_blank" rel="noopener noreferrer">
               <FaEnvelope size={20} className='text-bl text-white hover:text-[#c5eaf4] ' />
             </a>
+            <a href="https://www.youtube.com/@alphaproductionsiitrpr" target="_blank" rel="noopener noreferrer">
+              <FaYoutube size={20} className='text-bl text-white hover:text-[#c5eaf4] ' />
+            </a>
           </div>
         </div>
 

@@ -14,7 +14,7 @@ export default function AboutUs() {
       <div className="pt-20 relative z-40">
       <Reveal> 
         <h1 className='lg:text-6xl text-4xl text-[#c5eaf4] font-bold mb-6'>About Board of Literary Affairs</h1>
-        <hr className="w-full border-2 border-gray-700 mt-8" />
+        <hr className="w-full border-2 bg-[#c5eaf4] mt-8" />
         </Reveal> 
         <Reveal>
         <div className='mt-8 p-2 lg:text-lg text-sm font-semibold text-[#ebecf3] text-justify leading-10'>

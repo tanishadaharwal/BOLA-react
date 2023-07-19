@@ -5,6 +5,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import AlfaazLogo from '../ClubLogos/Alfaaz.jpg';
 import Reveal from './Reveal';
+import Tilt from 'react-parallax-tilt';
 
 export default function ClubList() {
   return (
@@ -73,14 +74,14 @@ export default function ClubList() {
   swipeable
 >
 
-<Link to="/clubs/Alfaaz" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log" src={AlfaazLogo}></img></div></Link>
-<Link to="/clubs/DebSoc" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src="DebSoc.png"></img></div></Link>
-<Link to="/clubs/Enigma" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src="Enigma.jpeg"></img></div></Link>
-<Link to="/clubs/Filmski" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src="Filmski.jpg"></img></div></Link>
-<Link to="/clubs/Alpha" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log" src="Alpha Productions.jpg"></img></div></Link>
-<Link to="/clubs/Enarrators" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src="Enarrators.PNG"></img></div></Link>
-<Link to="/clubs/MUN" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src="mun_logo.jpeg"></img></div></Link>
-   
+<Tilt><Link to="/clubs/Alfaaz"  smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log" src={AlfaazLogo}></img></div></Link></Tilt>
+<Tilt><Link to="/clubs/DebSoc" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src="DebSoc.png"></img></div></Link>
+</Tilt><Tilt><Link to="/clubs/Enigma" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src="Enigma.jpeg"></img></div></Link>
+</Tilt><Tilt><Link to="/clubs/Filmski" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src="Filmski.jpg"></img></div></Link>
+</Tilt><Tilt><Link to="/clubs/MUN" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src="mun_logo.jpeg"></img></div></Link>
+</Tilt><Tilt><Link to="/clubs/Alpha" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log" src="Alpha Productions.jpg"></img></div></Link>
+</Tilt><Tilt><Link to="/clubs/Enarrators" smooth duration={500}><div className='hover:opacity-80 hover:scale-95 duration-300 p-2'><img loading="lazy"  className='lg:h-80 lg:w-80 h-36 w-36 border-2 border-white rounded-2xl p-2' alt="club-log"src="Enarrators.PNG"></img></div></Link>
+</Tilt>
 </Carousel>
     
 

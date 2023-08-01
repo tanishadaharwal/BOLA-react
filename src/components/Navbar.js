@@ -82,8 +82,8 @@ const NavBar = () => {
         <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#c5eaf4]  duration-200" >
     
     <FaPager size={20} />
-     <Link to="https://docs.google.com/document/d/1b1qrIUwwkIpnUd7-Mv1PQrxiykLYUVikpgwT5k3_BWE/edit?usp=sharing" target="_blank" rel="noopener noreferrer" smooth duration={500}>Constitution</Link>
-     
+    <Link to="https://docs.google.com/document/d/1wCkjDxrwtr7Rb8CUqH7OOtMMsEJt66viU-CDxXoCeDY/edit" target="_blank" rel="noopener noreferrer" smooth duration={500}>Calendar</Link>
+                
     </div>
 
         <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#c5eaf4]  duration-200" 
@@ -95,11 +95,11 @@ const NavBar = () => {
          {showLinks && (
             <div className="absolute w-40 border-t-4  items-center bg-zinc-800 rounded-md shadow-md mt-6 ml-4 p-2">
               <ul>
-                <Link to="/event-gallery"><li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">BOLA Gallery</li></Link>
-                <Link to="https://www.iitrpr.ac.in/"><li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">IIT Ropar Website</li>
+                <Link to="/event-gallery"  target="_blank" rel="noopener noreferrer" smooth duration={500}><li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">BOLA Gallery</li></Link>
+                <Link to="https://www.iitrpr.ac.in/"  target="_blank" rel="noopener noreferrer" smooth duration={500}><li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">IIT Ropar Website</li>
                 </Link>
-                <Link to="https://docs.google.com/document/d/1wCkjDxrwtr7Rb8CUqH7OOtMMsEJt66viU-CDxXoCeDY/edit" ><li  className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">Calender</li></Link>
-         
+                <Link to="https://docs.google.com/document/d/1b1qrIUwwkIpnUd7-Mv1PQrxiykLYUVikpgwT5k3_BWE/edit?usp=sharing"  target="_blank" rel="noopener noreferrer" smooth duration={500}><li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">Constitution</li></Link>
+     
                 {/* Add more clubs as needed */}
               </ul>
             </div>

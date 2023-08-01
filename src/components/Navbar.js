@@ -4,6 +4,7 @@ import { FaBars, FaHome, FaIdCard, FaLayerGroup, FaLink, FaList, FaTimes, FaPage
 import { Link as LinkRoll } from "react-scroll";
 import { Link } from "react-router-dom";
 import BOLA from "../ClubLogos/BOLA-1.png";
+import kshitij from "../ClubLogos/Kshitij.pdf"
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [showClubs, setShowClubs] = useState(false);
@@ -74,8 +75,8 @@ const NavBar = () => {
         <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#c5eaf4]  duration-200" >
     
         <FaList size={20}/>
-         <Link to="https://docs.google.com/document/d/1wCkjDxrwtr7Rb8CUqH7OOtMMsEJt66viU-CDxXoCeDY/edit" target="_blank" rel="noopener noreferrer" smooth duration={500}>Calender</Link>
-         
+        <Link to={kshitij} target="_blank" rel="noopener noreferrer" smooth duration={500}>Kshitij</Link>
+     
         </div>
 
         <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#c5eaf4]  duration-200" >
@@ -97,6 +98,8 @@ const NavBar = () => {
                 <Link to="/event-gallery"><li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">BOLA Gallery</li></Link>
                 <Link to="https://www.iitrpr.ac.in/"><li className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">IIT Ropar Website</li>
                 </Link>
+                <Link to="https://docs.google.com/document/d/1wCkjDxrwtr7Rb8CUqH7OOtMMsEJt66viU-CDxXoCeDY/edit" ><li  className="py-2 cursor-pointer hover:scale-105 hover:text-white hover:font-semibold  hover:rounded-md">Calender</li></Link>
+         
                 {/* Add more clubs as needed */}
               </ul>
             </div>

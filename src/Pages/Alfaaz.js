@@ -160,7 +160,7 @@ export default function Alfaaz() {
                 <div className='grid grid-cols-2 lg:grid-cols-3 mx-auto gap-10'>
 
                   <MemberCard name="Hitesh Patange" number="" position="Co-ordinator" image="Hitesh.jpg" />
-                  <MemberCard name="Abhishek Abhi" number="" position="Co-ordinator" image="Abhishek Kumar .jpg" />
+                  <MemberCard name="Raj Shrivastav" number="" position="Co-ordinator" image="Raj.jpg" />
                   <MemberCard name="Amitoj Singh" number="" position="Co-ordinator" image="Amitoj.jpg" />
                   
 
